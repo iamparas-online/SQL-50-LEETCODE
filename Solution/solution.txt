@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Solution
- * URL: https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/2128353117/?envType=study-plan-v2&envId=top-sql-50
+ * URL: https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/2128344862/?envType=study-plan-v2&envId=top-sql-50
  * Language: SQL 50
  * Difficulty: Easy
  * Topics: Database
- * Runtime: 568 ms
+ * Runtime: 713 ms
  * Memory: N/A
- * Synced: 2026-09-02T11:50:57.142Z
+ * Synced: 2026-09-02T11:51:46.144Z
  */
 
 # Write your MySQL query statement below
