@@ -1,17 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: 50
- * URL: https://leetcode.com/problems/find-customer-referee/description/?envType=study-plan-v2&envId=top-sql-50
- * Language: SQL 50
- * Difficulty: Easy
- * Topics: Database
+ * URL: https://leetcode.com/problems/binary-search/editorial/?envType=study-plan-v2&envId=binary-search
+ * Language: Binary Search
+ * Difficulty: Unknown
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-09-02T11:36:10.932Z
+ * Synced: 2026-09-02T11:48:09.195Z
  */
 
-# Write your MySQL query statement below
-select name 
-from customer
-where referee_id != 2
-or referee_id is null
+class Solution {
+    public int search(int[] nums, int target) {
+        
+    }
+}
