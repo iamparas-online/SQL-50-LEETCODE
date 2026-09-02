@@ -7,7 +7,7 @@
 - Runtime: 631 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/2128372794/?envType=study-plan-v2&envId=top-sql-50
-- Synced: 2026-09-02T11:57:35.942Z
+- Synced: 2026-09-02T12:01:32.010Z
 
 ## Problem Description
 
