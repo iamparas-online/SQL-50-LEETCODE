@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-09-02T11:36:10.932Z",
+  "submissionTimestamp": "2026-09-02T11:48:09.195Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Easy",
+  "difficulty": "Unknown",
   "tags": [
-    "Database"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "SQL 50",
+  "language": "Binary Search",
   "problemTitle": "50",
-  "problemUrl": "https://leetcode.com/problems/find-customer-referee/description/?envType=study-plan-v2&envId=top-sql-50",
-  "submissionId": "suvjg0"
+  "problemUrl": "https://leetcode.com/problems/binary-search/editorial/?envType=study-plan-v2&envId=binary-search",
+  "submissionId": "d2n6bv"
 }
