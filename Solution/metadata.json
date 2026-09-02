@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-09-02T11:51:46.144Z",
-  "runtime": "713 ms",
+  "submissionTimestamp": "2026-09-02T11:57:35.942Z",
+  "runtime": "631 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "SQL 50",
   "problemTitle": "Solution",
-  "problemUrl": "https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/2128344862/?envType=study-plan-v2&envId=top-sql-50",
+  "problemUrl": "https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/2128372794/?envType=study-plan-v2&envId=top-sql-50",
   "submissionId": "mpoofa"
 }
