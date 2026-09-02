@@ -7,7 +7,7 @@
 - Runtime: 553 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-customer-referee/submissions/2128373518/?envType=study-plan-v2&envId=top-sql-50
-- Synced: 2026-09-02T11:46:44.140Z
+- Synced: 2026-09-02T11:47:32.141Z
 
 ## Problem Description
 
