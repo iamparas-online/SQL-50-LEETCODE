@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find Customer Referee
+ * URL: https://leetcode.com/problems/find-customer-referee/submissions/2128373518/?envType=study-plan-v2&envId=top-sql-50
+ * Language: SQL 50
+ * Difficulty: Easy
+ * Topics: Database
+ * Runtime: 553 ms
+ * Memory: N/A
+ * Synced: 2026-09-02T11:36:57.122Z
+ */
+
+# Write your MySQL query statement below
+select name 
+from customer
+where referee_id != 2
+or referee_id is null
