@@ -4,10 +4,10 @@
 - Language: SQL 50
 - Difficulty: Easy
 - Topics: Database
-- Runtime: 713 ms
+- Runtime: 631 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/2128344862/?envType=study-plan-v2&envId=top-sql-50
-- Synced: 2026-09-02T11:51:46.144Z
+- Problem URL: https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/2128372794/?envType=study-plan-v2&envId=top-sql-50
+- Synced: 2026-09-02T11:54:36.388Z
 
 ## Problem Description
 
