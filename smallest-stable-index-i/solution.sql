@@ -3,7 +3,7 @@ class Solution {
     public int firstStableIndex(int[] nums, int k) {
         
         int [] leftmax = new int[nums.length];
-        int [] r
+        int [] right
         leftmax[0]=nums[0];
 
         for(int i=1;i<=nums.length;i++){
