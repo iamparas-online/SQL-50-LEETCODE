@@ -5,7 +5,7 @@ class Solution {
         int [] leftmax = new int[nums.length];
         leftmax[0]=nums[0];
 
-        for(int i=1)
+        for(int i=1;i<)
         leftmax[i] = maximum(leftmax[i-1], nums[i]);
     }
 }
