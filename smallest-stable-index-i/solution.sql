@@ -4,7 +4,8 @@ class Solution {
         
         int [] leftmax = new int[nums.length];
         int [] rightmin = new int[nums.length];
+
         leftmax[0]=nums[0];
-        rightmin[nums.length-1]=nums[];
+        rightmin[nums.length-1]=nums[n];
 
         for(int i=1;i<=nums.length;i++){
