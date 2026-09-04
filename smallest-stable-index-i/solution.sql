@@ -1,4 +1,9 @@
 
+
+        leftmax[0]=nums[0];
+        rightMin[lastIndex] = nums[lastIndex];
+
+        for(int i=1;i<=nums.length;i++){
             leftmax[i] = maximum(leftmax[i-1], nums[i]);
         }
 
@@ -11,3 +16,8 @@
             if (leftmax[i] - rightMin[i] <= k) {
                 return i;
             }
+        }
+
+        return -1;
+    }
+}
