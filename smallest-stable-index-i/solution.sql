@@ -7,7 +7,7 @@ class Solution {
         int lastIndex = nums.length - 1;
 
         leftmax[0]=nums[0];
-        rrightMin[lastIndex] = nums[lastIndex];
+        rightMin[lastIndex] = nums[lastIndex];
 
         for(int i=1;i<=nums.length;i++){
             leftmax[i] = maximum(leftmax[i-1], nums[i]);
