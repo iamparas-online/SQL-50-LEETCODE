@@ -1,5 +1,4 @@
 
-class Solution {
     public int firstStableIndex(int[] nums, int k) {
         
         int [] leftmax = new int[nums.length];
@@ -8,3 +7,5 @@ class Solution {
 
         leftmax[0]=nums[0];
         rightmin[lastIndex] = nums[lastIndex];
+
+        for(int i=1;i<=nums.length;i++){
