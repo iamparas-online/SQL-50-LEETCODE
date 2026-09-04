@@ -3,7 +3,7 @@
         rightmin[lastIndex] = nums[lastIndex];
 
         for(int i=1;i<nums.length;i++){
-            leftmax[i] = Mmax(leftmax[i-1], nums[i]);
+            leftmax[i] = Mathmax(leftmax[i-1], nums[i]);
         }
 
         for (int i = lastIndex - 1; i >= 0; i--) {
