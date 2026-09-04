@@ -9,3 +9,4 @@ class Solution {
             leftmax[i] = maximum(leftmax[i-1], nums[i]);
         }
     }
+}
