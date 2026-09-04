@@ -11,7 +11,3 @@
             if (leftmax[i] - rightMin[i] <= k) {
                 return i;
             }
-        }
-
-        return -1;
-    }
