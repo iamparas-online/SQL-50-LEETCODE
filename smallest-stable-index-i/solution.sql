@@ -4,5 +4,5 @@ class Solution {
         
         int [] leftmax = new int[nums.length];
 
-    }l
+    }le
 }
