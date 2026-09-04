@@ -2,6 +2,6 @@
 class Solution {
     public int firstStableIndex(int[] nums, int k) {
         
-        int [] leftmax = new int[nums.]; 
+        int [] leftmax = new int[nums.lengt]; 
     }
 }
