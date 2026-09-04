@@ -5,4 +5,3 @@ class Solution {
         int [] leftmax = new int[nums.length];
         leftmax[0]=nums[0];
     }
-}
