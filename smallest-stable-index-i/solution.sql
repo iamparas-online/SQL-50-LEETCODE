@@ -16,7 +16,7 @@ class Solution {
         rightMin[lastIndex] = nums[lastIndex];
 
         for (int i = lastIndex - 1; i >= 0; i--) {
-       rightMin[i] = Math.min(rightMin[i + 1], nums[i]);
+            rightMin[i] = Math.min(rightMin[i + 1], nums[i]);
 }
     }
 }
