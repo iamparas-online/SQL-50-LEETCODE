@@ -4,6 +4,7 @@ class Solution {
         
         int [] leftmax = new int[nums.length];
         int [] rightmin = new int[nums.length];
+        int lastIndex = nums.length - 1;
 
         leftmax[0]=nums[0];
         rightmin[nums.length-1]=nums[nums.length-1];
@@ -12,5 +13,6 @@ class Solution {
             leftmax[i] = maximum(leftmax[i-1], nums[i]);
         }
 
-
+    
     }
+}
