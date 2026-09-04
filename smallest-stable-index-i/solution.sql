@@ -7,5 +7,5 @@
         }
 
         for (int i = lastIndex - 1; i >= 0; i--) {
-            rightin[i] = Math.min(rightMin[i + 1], nums[i]);
+            rightmin[i] = Math.min(rightMin[i + 1], nums[i]);
         }
