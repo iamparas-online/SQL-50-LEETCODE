@@ -7,7 +7,7 @@ class Solution {
 
         int[][] dp = new int[m + 1][n + 1];
 
-        // Empty t can be made in 1 wa
+    
         for (int i = 0; i <= m; i++) {
             dp[i][0] = 1;
         }
