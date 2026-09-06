@@ -1,4 +1,4 @@
 # Article Views I
 
 - Language: MySQL
-- URL: https://leetcode.com/problems/article-views-i/description/?envType=study-plan-v2&envId=top-sql-50
+- URL: https://leetcode.com/problems/article-views-i/?envType=study-plan-v2&envId=top-sql-50
