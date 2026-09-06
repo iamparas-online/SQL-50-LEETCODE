@@ -19,7 +19,7 @@
 
                 } else {
 
-                    // Skip
+                    // Skip s[i-1
                     dp[i][j] = dp[i - 1][j];
                 }
             }
