@@ -16,7 +16,7 @@ class Solution {
 
                 if (s.charAt(i - 1) == t.charAt(j - 1)) {
 
-                    // Use s[i-1] + Skip s[i-1
+                    //
                     dp[i][j] = dp[i - 1][j - 1]
                              + dp[i - 1][j];
 
