@@ -4,7 +4,7 @@ class Solution {
         int MOD = 1000000007;
 
         long[] last = new long[26];
-        long dp = 1; // empty subsequence
+        long dp = 1; // empty subsequenc
 
         for (char c : s.toCharArray()) {
             int i = c - 'a';
