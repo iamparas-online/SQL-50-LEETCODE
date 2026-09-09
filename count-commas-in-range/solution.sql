@@ -5,6 +5,6 @@ class Solution {
             return n-999;
         }
 
-        return n - 99;
+        return n;
     }
 }
