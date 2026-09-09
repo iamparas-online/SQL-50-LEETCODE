@@ -4,4 +4,6 @@ class Solution {
         if(n>=10000){
             return n-9999
         }
+        r
     }
+}
