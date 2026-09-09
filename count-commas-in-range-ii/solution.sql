@@ -1,12 +1,11 @@
 
-            ans += n - 999999;
+        long start = 1000;
 
-        if (n >= 1000000000)
-            ans += n - 999999999;
+        while (start <= n) {
+            ans += n - start + 1;
 
-        if (n >= 1000000000000L)
-            ans += n - 999999999999L;
+            if (start > n / 1000)
+                break;
 
-        return ans;
-    }
-}
+            start *= 1000;
+        }
