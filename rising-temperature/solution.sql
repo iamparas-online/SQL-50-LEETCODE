@@ -3,4 +3,4 @@
 select id
 from weather w1 and weather w2 
 where datediff(recordDate)=1 and
-and temperature.w1 > tw2
+and temperature.w1 > tempw2
