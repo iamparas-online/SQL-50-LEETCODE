@@ -2,4 +2,4 @@
 # Write your MySQL query statement below
 select id
 from weather w1 and weather w2 
-where datediff(recordDate)=
+where datediff(recordDate)=1 
