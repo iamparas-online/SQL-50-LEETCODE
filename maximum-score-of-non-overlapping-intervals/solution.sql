@@ -1,12 +1,11 @@
 
+        for (int i = 0; i < Math.min(a.size(), b.size()); i
+        ++) {
+            if (!a.get(i).equals(b.get(i))) {
+                return a.get(i) < b.get(i);
+            }
+        }
 
-    public int[] maximumWeight(List<List<Integer>> intervalsList) {
-        n = intervalsList.size();
-
-        intervals = new int[n][4];
-
-        for (int i = 0; i < n; i++) {
-            intervals[i][0] = intervalsList.get(i).get(0);
-            intervals[i][1] = intervalsList.get(i).get(1);
-            intervals[i][2] = intervalsList.get(i).get(2);
-            intervals[i][3] = i;
+        return a.size() < b.size();
+    }
+}
