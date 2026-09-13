@@ -1,8 +1,4 @@
 
-
-        for (int dr = -n + 1; dr < n; dr++) {
-            for (int dc = -n + 1; dc < n; dc++) {
-
                 int count = 0;
 
                 for (int i = 0; i < n; i++) {
@@ -12,8 +8,7 @@
                         int y = j + dc;
 
                         if (x >= 0 && x < n && y >= 0 && y < n) {
-                            if (img1[i][j] == 1 && img2[x][y] == 
-                            1) {
+                            if (img1[i][j] == 1 && img2[x][y] == 1) {
                                 count++;
                             }
                         }
@@ -23,3 +18,7 @@
                 ans = Math.max(ans, count);
             }
         }
+
+        return ans;
+    }
+}
