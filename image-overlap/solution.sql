@@ -1,4 +1,11 @@
 
+class Solution {
+    public int largestOverlap(int[][] img1, int[][] img2) {
+        int n = img1.length;
+        int ans = 0;
+
+        for (int dr = -n + 1; dr < n; dr++) {
+            for (int dc = -n + 1; dc < n; dc++) {
 
                 int count = 0;
 
@@ -17,9 +24,3 @@
                 }
 
                 ans = Math.max(ans, count);
-            }
-        }
-
-        return ans;
-    }
-}
