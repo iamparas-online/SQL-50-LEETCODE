@@ -1,7 +1,4 @@
 
-        // palindrome[i][j] = true if s[i...j] is a palindrome
-        boolean[][] palindrome = new boolean[n][n];
-        // Build palindrome table
         for (int i = n - 1; i >= 0; i--) {
             for (int j = i; j < n; j++) {
                 if (s.charAt(i) == s.charAt(j) &&
@@ -23,3 +20,7 @@
                 }
             }
         }
+
+        return dp[n];
+    }
+}
