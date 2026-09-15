@@ -1,4 +1,6 @@
 
+
+        // dp[i] = maximum palindromes using first i characters
         int[] dp = new int[n + 1];
 
         for (int i = 1; i <= n; i++) {
@@ -18,4 +20,4 @@
         return dp[n];
     }
 }
-``
+
