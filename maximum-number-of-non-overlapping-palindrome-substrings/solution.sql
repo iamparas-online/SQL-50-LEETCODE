@@ -1,5 +1,5 @@
 
-``java
+jav
 class Solution {
     public int maxPalindromes(String s, int k) {
         int n = s.length();
