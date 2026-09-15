@@ -12,4 +12,4 @@ class Solution {
         return left < right && bottom < top;
     }
 }
-```
+``
