@@ -2,7 +2,7 @@
 class Solution {
 
 
-   //Bhai 
+   //Bhai ye kya
 
     static final long MOD = 1000000007;
 
