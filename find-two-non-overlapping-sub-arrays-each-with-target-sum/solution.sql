@@ -1,11 +1,4 @@
 
-        Arrays.fill(best, Integer.MAX_VALUE);
-        int left = 0;
-        int sum = 0;
-        int answer = Integer.MAX_VALUE;
-        
-        for (int right = 0; right < n; right++) {
-            sum += arr[right];
             // Since all values are positive, shrink from left
             // while the window sum is greater than target.
             while (sum > target) {
@@ -24,3 +17,11 @@
                 } else {
                     best[right] = Math.min(best[right - 1], currentLength);
                 }
+            } else {
+                // No new valid subarray ending at right
+                if (right > 0) {
+                    best[right] = best[right - 1];
+                }
+            }
+        }
+        return answer == Integer.MAX_VALUE ? -1 : answer;
