@@ -1,4 +1,14 @@
 
+class Solution {
+    public int minSumOfLengths(int[] arr, int target) {
+        int n = arr.length;
+        // best[i] = minimum length of a valid subarray
+        // ending at or before index i
+        int[] best = new int[n];
+        Arrays.fill(best, Integer.MAX_VALUE);
+        int left = 0;
+        int sum = 0;
+        int answer = Integer.MAX_VALUE;
         for (int right = 0; right < n; right++) {
             sum += arr[right];
             // Since all values are positive, shrink from left
@@ -14,13 +24,3 @@
                     answer = Math.min( answer,currentLength + best[left - 1] );
                 }
                 // Store the shortest valid subarray seen so far
-                if (right == 0) {
-                    best[right] = currentLength;
-                } else {
-                    best[right] = Math.min(best[right - 1], currentLength);
-                }
-            } else {
-                // No new valid subarray ending at right
-                if (right > 0) {
-                    best[right] = best[right - 1];
-                }
