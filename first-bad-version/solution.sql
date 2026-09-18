@@ -11,3 +11,4 @@
                 high = mid;
             } else {
                 low = mid + 1;
+            }
