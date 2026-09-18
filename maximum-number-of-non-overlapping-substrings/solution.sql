@@ -1,11 +1,12 @@
 
+class Solution {
+    public List<String> maxNumOfSubstrings(String s) {
+        int n = s.length();
 
-            if (valid)
-                intervals.add(new int[]{r, l});
-        }
+        int[] first = new int[26];
+        int[] last = new int[26];
+        Arrays.fill(first, n);
+        Arrays.fill(last, -1);
 
-        // Earliest ending interval first
-        intervals.sort((a, b) -> {
-            if (a[0] != b[0]) return Integer.compare(a[0], b[0]);
-            return Integer.compare(a[1], b[1]);
-        });
+        // Find first and last occurrence
+        for (int i = 0; i < n; i++) {
