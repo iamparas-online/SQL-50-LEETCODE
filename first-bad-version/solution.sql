@@ -5,7 +5,7 @@
 
         while (low < high) {
 
-            int mid = low + high;
+            int mid = low + high);
 
             if (isBadVersion(mid)) {
                 high = mid;
