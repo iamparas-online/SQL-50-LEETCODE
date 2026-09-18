@@ -4,6 +4,6 @@
 
 public class Solution extends VersionControl {
     public int firstBadVersion(int n) {
-        r
+        return bad;
     }
 }
