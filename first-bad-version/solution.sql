@@ -1,6 +1,4 @@
 
-// The isBadVersion API is defined for you.
-// boolean isBadVersion(int version);
 
 class Solution {
     public int firstBadVersion(int n) {
@@ -8,8 +6,9 @@ class Solution {
         int high = n;
 
         while (low < high) {
-            int mid = (low + high) / 2;
+            int mid = low + (high - low) / 2;
 
             if (isBadVersion(mid)) {
                 high = mid;
             } else {
+                low = mid + 1;
