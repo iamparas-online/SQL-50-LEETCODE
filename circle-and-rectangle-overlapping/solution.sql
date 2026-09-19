@@ -17,6 +17,7 @@
         }
 
         // Distance from circle center to nearest point
-        return Math.sqrt( (xi - xCenter) * (xi - xCenter) +(yi - yCenter) * (yi - yCenter) ) <= radius;
+        return Math.sqrt( (xi - xCenter) * (xi - xCenter) +(yi - yCenter) * (yi - yCenter) ) <= 
+        radius;
     }
 }
