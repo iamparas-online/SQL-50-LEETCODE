@@ -1,4 +1,5 @@
 
+        if (x1 > xCenter) {
             xi = x1;
         } else if (x2 < xCenter) {
             xi = x2;
@@ -16,7 +17,6 @@
         }
 
         // Distance from circle center to nearest point
-        return Math.sqrt( (xi - xCenter) * (xi - xCenter) +(yi - yCenter) * (yi - yCenter)
-    ) <= radius;
+        return Math.sqrt( (xi - xCenter) * (xi - xCenter) +(yi - yCenter) * (yi - yCenter) ) <= radius;
     }
 }
