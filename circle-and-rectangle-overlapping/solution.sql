@@ -15,7 +15,7 @@ class Solution {
             xi = xCenter;
         }
 
-        // Find nearest y-coordinat
+        // Find nearest y
         if (y1 > yCenter) {
             yi = y1;
         } else if (y2 < yCenter) {
