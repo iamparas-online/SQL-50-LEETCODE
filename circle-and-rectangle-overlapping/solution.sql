@@ -1,7 +1,4 @@
 
-        // nearest x
-        if (x1 > xCenter) {
-            xi = x1;
         } else if (x2 < xCenter) {
             xi = x2;
         } else {
