@@ -6,7 +6,7 @@ class Solution {
         int xi;
         int yi;
 
-        // nearest x-coordinat
+        // nearest x
         if (x1 > xCenter) {
             xi = x1;
         } else if (x2 < xCenter) {
@@ -15,7 +15,7 @@ class Solution {
             xi = xCenter;
         }
 
-        // Find nearest y-coordinate
+        // Find nearest y-coordinat
         if (y1 > yCenter) {
             yi = y1;
         } else if (y2 < yCenter) {
