@@ -2,6 +2,6 @@
 # Write your MySQL query statement below
 SELECT e.name ,b.bonus 
 FROM Employee e
-LEFT JOIN onus b
+LEFT JOIN bonus b
 ON e.empID = b.empID
-WHERE b.Bonus is NULL OR e.Bonus < 1000 
+WHERE b.onus is NULL OR e.Bonus < 1000 
