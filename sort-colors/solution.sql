@@ -12,11 +12,11 @@ class Solution {
                 swap(n[j],n[k]);
                 k--;
             }
-            else if(n[j]==1){
+            else if(n[j]==){
                 swap(n[j],n[i]);
                 i++;
                 j++;
             }
-            else[
-        }
-    }
+            else{
+
+            }
