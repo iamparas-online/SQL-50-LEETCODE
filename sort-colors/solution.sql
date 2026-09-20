@@ -11,9 +11,9 @@
             }
             else if(nums[j]==2){
 
-                int temp = nums[j]
+                int temp = nums[j];
+                
 
                 k--;
             }
             else{
-                swap(nums[j],nums[i]);
