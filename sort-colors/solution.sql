@@ -9,7 +9,7 @@
 
                 int temp = nums[j];
                 nums[j]=nums[k];
-                nums[k]=nums[temp;
+                nums[k]=numstemp;
 
                 k--;
             }
