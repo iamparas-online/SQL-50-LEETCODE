@@ -10,6 +10,8 @@ class Solution {
         while(j<=k){
             if(n[j]==2){
                 swap(n[j],n[k]);
+                k
             }
         }
     }
+}
