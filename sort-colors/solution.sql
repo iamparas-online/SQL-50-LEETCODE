@@ -1,6 +1,4 @@
 
-        int k=n-1;  //2
-
         while(j<=k){
             if(nums[j]==1){
                 j++;
