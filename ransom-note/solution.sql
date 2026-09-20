@@ -12,6 +12,8 @@ class Solution {
             char c = r.charAt(i);
             if(m.charAt(i) == 0){
                 return false;
-            }  
+            }
+            c  
         }
     }
+}
