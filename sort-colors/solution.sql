@@ -11,8 +11,8 @@ class Solution {
             if(nums[j]==1){
                 j++;
             }
-            else if(nu[j]==2){
-                swap(n[j],n[k]);
+            else if(nums[j]==2){
+                swap(nu[j],n[k]);
                 k--;
             }
             else{
