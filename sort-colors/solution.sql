@@ -11,7 +11,7 @@
             }
             else if(nums[j]==2){
 
-                int 
+                int tem
 
                 k--;
             }
