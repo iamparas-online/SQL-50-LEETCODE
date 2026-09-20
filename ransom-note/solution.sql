@@ -11,7 +11,7 @@ class Solution {
         for(int i=0;i<r.length();i++){
             
 
-            if(count[c] == 0){
+            if(count[c - ''] == 0){
                 return false;
             }
             count[c - 'a']--;  
