@@ -1,6 +1,6 @@
 
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
-        i
+        int c
     }
 }
