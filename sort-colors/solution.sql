@@ -8,7 +8,7 @@ class Solution {
         int k=n-1;  //2
 
         while(j<=k){
-            if(nu[j]==1){
+            if(nums[j]==1){
                 j++;
             }
             else if(n[j]==2){
