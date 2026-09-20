@@ -1,5 +1,4 @@
 
-        for(int i=0;i<m.length();i++){
             char c = m.charAt(i);
             count[c - 'a']++;
         }
@@ -10,3 +9,4 @@
                 return false;
             }
             count[c - 'a']--;  
+        }
