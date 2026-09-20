@@ -13,7 +13,7 @@ class Solution {
                 k--;
             }
             else if(n[j]==1){
- swap(n[j],n[k]);
+                swap(n[j],n[k]);
                 k--;
             }
         }
