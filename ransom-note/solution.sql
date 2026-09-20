@@ -8,6 +8,6 @@ class Solution {
             count = [c - 'a']++;
         }
 
-        for(int i=)
+        for(int i=0;)
     }
 }
