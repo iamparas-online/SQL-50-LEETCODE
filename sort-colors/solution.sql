@@ -8,7 +8,7 @@
             else{
 
                 int temp = nums[j];
-                nums[j]=nums[];
+                nums[j]=nums[i];
                 nums[k]=temp;
 
                 i++;
