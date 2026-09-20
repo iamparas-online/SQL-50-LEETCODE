@@ -10,3 +10,4 @@
                 return false;
             }
             count[c - 'a']--;  
+        }
