@@ -4,8 +4,8 @@ class Solution {
         
         int n=nums.length;
         int i=0; //0
-        int j=0; //1
-        int k=n-1; /
+        int j=0;  //1
+        int k=n-1; //2
 
         while(j<=k){
 
