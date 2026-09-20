@@ -1,6 +1,7 @@
 
 class Solution {
     public int removeElement(int[] nums, int val) {
-        int 
+        int k=0;
+        
     }
 }
