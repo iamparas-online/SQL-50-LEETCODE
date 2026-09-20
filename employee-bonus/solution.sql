@@ -1,3 +1,5 @@
 
 # Write your MySQL query statement below
-from 
+FROM Employee e
+LEFT JOIN Bonus b
+ON e
