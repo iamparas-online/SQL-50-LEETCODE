@@ -1,6 +1,6 @@
 
 class Solution {
-    public boolean canConstruct(String ransomNot, String magazine) {
+    public boolean canConstruct(String r, String magazin) {
         int [] count = new int [26];
 
 
