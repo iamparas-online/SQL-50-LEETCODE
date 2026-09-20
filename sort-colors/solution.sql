@@ -9,7 +9,7 @@ class Solution {
 
         while(j<=k){
             if(n[j]==1){
-                sw
+                j
             }
             else if(n[j]==0){
                 swap(n[j],n[i]);
