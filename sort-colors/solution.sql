@@ -12,8 +12,8 @@ class Solution {
                 j++;
             }
             else if(n[j]==2){
-                swap(n[j],n[i]);
-                k-
+                swap(n[j],n[]);
+                k--;
             }
             else{
                 
