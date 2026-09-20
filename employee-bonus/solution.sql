@@ -3,4 +3,4 @@
 FROM Employee e
 LEFT JOIN Bonus b
 ON e.empID = b.empID
-WHERE b.Bonus  
+WHERE b.Bonus is 
