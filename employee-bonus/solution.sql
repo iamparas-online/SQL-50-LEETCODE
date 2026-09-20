@@ -1,6 +1,6 @@
 
 # Write your MySQL query statement below
-SELECT e.
+SELECT e.name 
 FROM Employee e
 LEFT JOIN Bonus b
 ON e.empID = b.empID
