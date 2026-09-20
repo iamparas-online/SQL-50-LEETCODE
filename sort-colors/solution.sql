@@ -16,7 +16,7 @@ class Solution {
                 k--;
             }
             else{
-                swap(n[j],)
+                swap(n[j],n[])
             }
         }
     }
