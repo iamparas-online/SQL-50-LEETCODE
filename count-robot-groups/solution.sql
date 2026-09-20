@@ -10,8 +10,10 @@ class Solution {
             if(position[i+1] - position[i] <= distance){
                 continue;
             }
+            i
         }
 
 
 
     }
+}
