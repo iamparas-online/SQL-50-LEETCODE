@@ -1,4 +1,5 @@
 
+class Solution {
     public void sortColors(int[] nums) {
         
         int n=nums.length;
@@ -7,7 +8,7 @@
         int k=n-1;  //2
 
         while(j<=k){
-            if(n[j]==1){
+            if(nu[j]==1){
                 j++;
             }
             else if(n[j]==2){
