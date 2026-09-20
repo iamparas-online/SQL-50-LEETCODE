@@ -17,6 +17,6 @@ class Solution {
                 i++;
                 j++;
             }
-            els
+            else[
         }
     }
