@@ -1,6 +1,6 @@
 
 class Solution {
     public int reverseDegree(String s) {
-        int n
+        int n=s
     }
 }
