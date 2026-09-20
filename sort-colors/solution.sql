@@ -15,6 +15,8 @@ class Solution {
             else if(n[j]==1){
                 swap(n[j],n[i]);
                 i++;
+                j+
             }
         }
     }
+}
