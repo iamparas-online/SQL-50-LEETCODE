@@ -9,7 +9,7 @@ class Solution {
         }
 
         for(int i=0;i<r.length();i++){
-            char c = r.c  
+            char c = r.charAt  
         }
     }
 }
