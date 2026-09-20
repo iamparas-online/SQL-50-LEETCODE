@@ -10,7 +10,7 @@ class Solution {
             if(position[i+1] - position[i] <= distance){
                 continue;
             }
-            else if() {}
+            else if(spe) {}
         }
 
 
