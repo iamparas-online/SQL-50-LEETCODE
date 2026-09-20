@@ -3,4 +3,4 @@
 FROM Employee e
 LEFT JOIN Bonus b
 ON empID.e = empID.b
-W
+WHERE B
