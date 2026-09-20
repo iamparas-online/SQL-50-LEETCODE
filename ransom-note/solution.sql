@@ -5,7 +5,7 @@ class Solution {
 
         for(int i=0;i<m.length();i++){
             char c = charAt(m);
-            count = c - 'a';
+            count = c - 'a'};
         }
     }
 }
