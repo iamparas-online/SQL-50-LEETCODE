@@ -9,9 +9,9 @@ class Solution {
 
         while(j<=k){
             if(n[j]==1){
-                j
+                j++;
             }
-            else if(n[j]==0){
+            else if(n[j]==){
                 swap(n[j],n[i]);
                 i++;
                 j++;
