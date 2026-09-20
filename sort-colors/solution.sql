@@ -6,10 +6,11 @@
                 k--;
             }
             else{
-                
+
                 int temp = nums[j];
-                nums[j]=nums[k];
+                nums[j]=nums[];
                 nums[k]=temp;
+
                 i++;
                 j++;
             }
