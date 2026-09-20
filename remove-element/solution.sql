@@ -6,9 +6,3 @@ class Solution {
 
         for(int i=0;i<n;i++){
             if(nums[i] != val){
-                nums[k]=nums[i];
-                k++;
-            }
-        }
-        return k;
-    }
