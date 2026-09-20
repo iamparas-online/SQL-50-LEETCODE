@@ -12,7 +12,7 @@
             else if(nums[j]==2){
 
                 int temp = nums[j];
-                n
+                nums[j]
 
                 k--;
             }
