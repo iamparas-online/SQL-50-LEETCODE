@@ -15,9 +15,6 @@ class Solution {
                 group_speed=speed[i];
             }
         }
-
-
-
-\\
+    
     }
 }
