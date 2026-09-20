@@ -17,6 +17,6 @@ class Solution {
             }
             else{
                 swap(n[j],n[i]);
+                i
             }
         }
-    }
