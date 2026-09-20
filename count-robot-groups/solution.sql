@@ -5,7 +5,7 @@ class Solution {
         int group = 1;
         int group_speed = speed[n-1]; //last robot speed 
 
-        fo
+        for(in)
 
 
 
