@@ -9,7 +9,7 @@ class Solution {
 
         while(j<=k){
             if(n[j]==2){
-                swap9
+                swap(n)
             }
         }
     }
