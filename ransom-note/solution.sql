@@ -9,6 +9,8 @@ class Solution {
         }
 
         for(int i=0;i<r.length();i++){
-            char c = r.charAt(i);  
+            char c = r.charAt(i);
+              
         }
     }
+}
