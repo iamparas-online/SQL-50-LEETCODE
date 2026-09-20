@@ -1,4 +1,5 @@
 
+    public boolean canConstruct(String r, String m) {
         int [] count = new int [26];
 
         for(int i=0;i<m.length();i++){
@@ -8,6 +9,3 @@
 
         for(int i=0;i<r.length();i++){
             
-
-            if(count[c - 'a'] == 0){
-                return false;
