@@ -4,6 +4,6 @@ class Solution {
         int k=0;
         int n=nums.length();
 
-        fo
+        for{}
     }
 }
