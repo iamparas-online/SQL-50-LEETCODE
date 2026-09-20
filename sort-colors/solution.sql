@@ -8,7 +8,7 @@ class Solution {
         int k=n-1;  //2
 
         while(j<=k){
-            if(n[j])
+            if(n[j]=)
         }
     }
 }
