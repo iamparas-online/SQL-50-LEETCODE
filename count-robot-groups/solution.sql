@@ -8,7 +8,7 @@ class Solution {
         for(int i=n-2;i>=0;i--){
 
             if(position[i+1] - position[i] <= distance){
-                c
+                continue
             }
         }
 
