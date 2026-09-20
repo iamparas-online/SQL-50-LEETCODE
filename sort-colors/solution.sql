@@ -6,4 +6,7 @@ class Solution {
         int i=0;
         int j=0;
         int k=n-1;
+
+        w
     }
+}
