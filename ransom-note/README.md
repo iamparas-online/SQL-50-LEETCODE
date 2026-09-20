@@ -1,4 +1,4 @@
 # Ransom Note
 
 - Language: MySQL
-- URL: https://leetcode.com/problems/ransom-note/description/
+- URL: https://leetcode.com/problems/ransom-note/
