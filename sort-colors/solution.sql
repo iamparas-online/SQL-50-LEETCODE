@@ -7,3 +7,6 @@
 
                 k--;
             }
+            else{
+
+                int temp = nums[j];
