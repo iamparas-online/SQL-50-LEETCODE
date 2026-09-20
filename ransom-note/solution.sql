@@ -13,7 +13,7 @@ class Solution {
             if(m.charAt(i) == 0){
                 return false;
             }
-            count = [c - '']  
+            count = [c - 'a']-  
         }
     }
 }
