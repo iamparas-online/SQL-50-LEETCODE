@@ -11,7 +11,7 @@ class Solution {
         for(int i=0;i<r.length();i++){
             char c = r.charAt(i);
             if(m.charAt(i) == 0){
-                return
+                return fal
             }  
         }
     }
