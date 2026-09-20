@@ -5,7 +5,7 @@ class Solution {
 
         for(int i=0;i<m.length();i++){
             
-            count =  - 'a'
+            count = c - 'a'
         }
     }
 }
