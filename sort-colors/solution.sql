@@ -8,7 +8,7 @@ class Solution {
         int k=n-1;  //2
 
         while(j<=k){
-            if(n[j]==2){
+            if(n[j]==){
                 swap(n[j],n[k]);
                 k--;
             }
@@ -18,5 +18,5 @@ class Solution {
                 j++;
             }
             else{
- 
+                
             }
