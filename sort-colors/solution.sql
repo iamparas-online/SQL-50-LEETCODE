@@ -6,8 +6,13 @@
                 k--;
             }
             else{
-                swap(nums[j],nums[i]);
+                
+                int temp = nums[j];
+                nums[j]=nums[k];
+                nums[k]=temp;
                 i++;
                 j++;
             }
         }
+    }
+}
