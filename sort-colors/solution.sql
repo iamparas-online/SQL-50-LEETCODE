@@ -2,9 +2,9 @@
 class Solution {
     public void sortColors(int[] nums) {
         
-        int n=nums.lengt
+        int n=nums.length;
         int i=0;
         int j=0;
-        int k=
+        int k=n
     }
 }
