@@ -12,7 +12,7 @@ class Solution {
             }
             else if(speed[i] <= group_speed){
                 group++;
-                g
+                group
             }
         }
 
