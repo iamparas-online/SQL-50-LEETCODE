@@ -1,4 +1,4 @@
 # Count Robot Groups
 
 - Language: MySQL
-- URL: https://leetcode.com/problems/count-robot-groups/description/
+- URL: https://leetcode.com/problems/count-robot-groups/
