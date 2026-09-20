@@ -3,7 +3,7 @@ class Solution {
     public int countGroups(int[] position, int[] speed, int distance) {
         int n = position.length;
         int group = 1;
-        int 
+        int group_
 
     }
 }
