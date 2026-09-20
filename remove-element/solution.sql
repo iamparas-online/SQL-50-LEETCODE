@@ -6,7 +6,7 @@ class Solution {
 
         for(int i=0;i<n;i++){
             if(nums[val] != nums[i]){
-                n
+                nums[]
             }
         }
     }
