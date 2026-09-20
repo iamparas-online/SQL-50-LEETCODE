@@ -9,7 +9,7 @@
 
                 int temp = nums[j];
                 nums[j]=nums[k];
-                nums[k]=numstemp;
+                nums[k]=temp;
 
                 k--;
             }
@@ -17,3 +17,4 @@
                 swap(nums[j],nums[i]);
                 i++;
                 j++;
+            }
