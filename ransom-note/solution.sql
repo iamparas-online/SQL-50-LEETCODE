@@ -4,7 +4,7 @@ class Solution {
         int [] count = new int [26];
 
         for(int i=0;i<m.length();i++){
-            char c 
+            char c = c
             count = c - 'a'
         }
     }
