@@ -12,11 +12,11 @@ class Solution {
                 j++;
             }
             else if(nums[j]==2){
-                swap(nums[j],nu[k]);
+                swap(nums[j],nums[k]);
                 k--;
             }
             else{
-                swap(n[j],n[i]);
+                swap(n[j],nu[i]);
                 i++;
                 j++;
             }
