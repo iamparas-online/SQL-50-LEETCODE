@@ -4,8 +4,8 @@ class Solution {
         int [] count = new int [26];
 
         for(int i=0;i<m.length();i++){
-            char c = charAt(m);
-            count = [c - 'a']+;
+            char c = charAt();
+            count = [c - 'a']++;
         }
     }
 }
