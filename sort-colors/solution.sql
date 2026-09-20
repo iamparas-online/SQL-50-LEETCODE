@@ -7,6 +7,6 @@ class Solution {
         int j=0;
         int k=n-1;
 
-        while()
+        while(j)
     }
 }
