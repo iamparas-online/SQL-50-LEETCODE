@@ -1,8 +1,4 @@
 
-        
-        int n=nums.length;
-        int i=0;    //0
-        int j=0;    //1
         int k=n-1;  //2
 
         while(j<=k){
@@ -13,8 +9,11 @@
 
                 int temp = nums[j];
                 nums[j]=nums[k];
-                nums[k]=nums[temp];
+                nums[k]=nums[temp;
 
                 k--;
             }
             else{
+                swap(nums[j],nums[i]);
+                i++;
+                j++;
