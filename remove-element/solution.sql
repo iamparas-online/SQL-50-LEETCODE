@@ -10,6 +10,3 @@ public:
                 k++;
             }
         }
-
-        return k;        
-    }
