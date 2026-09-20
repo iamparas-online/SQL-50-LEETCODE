@@ -5,7 +5,7 @@
         }
 
         for(int i=0;i<r.length();i++){
-            int c = 
+            int c = r
             if(count[c - 'a'] == 0){
                 return false;
             }
