@@ -8,5 +8,5 @@ class Solution {
             result = ('z'-s[i]+1) *(i+1); 
         }
 
-        retur
+        return resul
     }
