@@ -2,4 +2,4 @@
 # Write your MySQL query statement below
 FROM Employee e
 LEFT JOIN Bonus b
-ON empID.e = em
+ON empID.e = empI
