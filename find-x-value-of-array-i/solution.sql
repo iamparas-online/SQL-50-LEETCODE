@@ -1,11 +1,4 @@
 
-
-            int rem = (int) (num % k);
-            current[rem]++;
-
-            // Add num to previous subarrays
-            for (int r = 0; r < k; r++) {
-
                 if (prev[r] > 0) {
                     int newRem = (int) ((r * num) % k);
                     current[newRem] += prev[r];
@@ -20,3 +13,7 @@
                 result[r] += current[r];
             }
         }
+
+        return result;
+    }
+}
