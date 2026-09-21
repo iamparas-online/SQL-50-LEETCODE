@@ -1,7 +1,6 @@
 
 class Solution {
-    public long[] resultArray(int[] nums, int k) 
-    {
+    public long[] resultArray(int[] nums, int k) {
         
     }
 }
