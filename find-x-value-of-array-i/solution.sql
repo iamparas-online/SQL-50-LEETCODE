@@ -19,3 +19,4 @@
             }
 
             // Current becomes previous for next number
+            prev = current;
