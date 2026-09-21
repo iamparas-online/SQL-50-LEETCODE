@@ -1,4 +1,8 @@
 
+            long[] current = new long[k];
+
+            int remainder = num % k;
+            current[remainder]++;
 
             // Add num to all previous subarrays
             for (int r = 0; r < k; r++) {
@@ -16,8 +20,3 @@
             for (int r = 0; r < k; r++) {
                 result[r] += current[r];
             }
-        }
-
-        return result;
-    }
-}
