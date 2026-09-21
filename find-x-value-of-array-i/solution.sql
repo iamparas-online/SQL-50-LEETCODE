@@ -1,7 +1,4 @@
 
-class Solution {
-    public long[] resultArray(int[] nums, int k) {
-
         long[] prev = new long[k];
         long[] result = new long[k];
 
@@ -9,7 +6,6 @@ class Solution {
 
             long[] current = new long[k];
 
-            // Start a new subarray with only num
             int remainder = num % k;
             current[remainder]++;
 
@@ -20,3 +16,6 @@ class Solution {
                     int newRemainder = (r * num) % k;
                     current[newRemainder] += prev[r];
                 }
+            }
+
+            // Current becomes previous for next number
