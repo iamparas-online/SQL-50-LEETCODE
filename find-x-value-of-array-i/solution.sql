@@ -1,10 +1,9 @@
 
-                    int newRemainder = (r * num) % k;
-                    current[newRemainder] += prev[r];
-                }
+            for (int r = 0; r < k; r++) {
+                result[r] += current[r];
             }
+        }
 
-            // Current becomes previous for next number
-            prev = current;
-
-            // Add current counts to answer
+        return result;
+    }
+}
