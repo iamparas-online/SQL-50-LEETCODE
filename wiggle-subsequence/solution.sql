@@ -1,5 +1,4 @@
 
-        int down=1;
       
         if(nums.length<2){
             return nums.length;
@@ -9,3 +8,4 @@
             
             if(nums[i]>nums[i-1]){
                 up=down+1;
+            }
