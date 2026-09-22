@@ -1,4 +1,5 @@
 
+        int count = 0;
         int left = 0;
         int right = people.length-1;
 
@@ -10,4 +11,4 @@
         count++;
         }
     return count;
-}
+}}
