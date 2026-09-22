@@ -6,7 +6,7 @@ class Solution {
         int right = people.length-1;
 
         while(left<=right){
-            if(peo[])
+            if(people[left]+)
         }
 
     }
