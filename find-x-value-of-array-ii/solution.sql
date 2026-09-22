@@ -1,22 +1,21 @@
 
+            int start = queries[i][2];
+            int x = queries[i][3];
+
+            // Persistent update
+            nums[index] = value;
+
+            update(1, 0, n - 1, index, value);
+
+            // Get segment [start ... n-1]
+            Node res = query(1, 0, n - 1,
+                             start, n - 1);
+
+            // IMPORTANT:
+            // We need prefixes, not all subarrays.
+            answer[i] = res.pre[x];
         }
+
+        return answer;
     }
-
-    Node merge(Node a, Node b) {
-
-        if (a == null) return b;
-        if (b == null) return a;
-
-        Node c = new Node();
-
-        // Product of entire segment
-        c.product = (a.product * b.product) % k;
-
-        // Prefixes
-        // Prefix completely inside left
-        for (int r = 0; r < k; r++) {
-            c.pre[r] = a.pre[r];
-        }
-
-        // Prefix = entire left + prefix of right
-        for (int r = 0; r < k; r++) {
+}
