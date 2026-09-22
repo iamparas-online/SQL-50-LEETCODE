@@ -13,5 +13,5 @@ class Solution {
         right--;
         count++;
     }
-    re
+    return count;
 }
