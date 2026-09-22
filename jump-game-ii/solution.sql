@@ -14,6 +14,6 @@ class Solution {
                 jump++;
             }
         }
-        ret
+        return h
     }
 }
