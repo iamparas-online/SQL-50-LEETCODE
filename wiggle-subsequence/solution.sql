@@ -15,7 +15,7 @@ class Solution {
                 up=down-1;
             }
             else{
-                d
+                down=up
             }
         }
     }
