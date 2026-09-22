@@ -9,7 +9,7 @@ class Solution {
 
             far=Math.max(far,i+nums[i]);
 
-            if(i)
+            if(i==en)
         }
     }
 }
