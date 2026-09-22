@@ -9,13 +9,13 @@ class Solution {
                 push(First.charAt(i));
             }
             else{
-                pop(.charAt(i));
+                pop(First.charAt(i));
             }
         }
 
         for(int i=0; i<=s.length; i++){
             if(s.charAt(i)!=#){
-                push(s.charAt(i));
+                push(.charAt(i));
             }
             else{
                 pop(s.charAt(i));
