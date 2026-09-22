@@ -12,6 +12,7 @@ class Solution {
         
         right--;
         count++;
+        
     }
     return count;
 }
