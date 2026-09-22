@@ -9,10 +9,10 @@ class Solution {
         }
     
 
-        for(int i=; i<nums.length-1; i++){
+        for(int i=1; i<nums.length-1; i++){
             
             if(nums[i]>nums[i-1]){
-                up=down-1;
+                up=down1;
             }
             else{
                 down=up+1;
