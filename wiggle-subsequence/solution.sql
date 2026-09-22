@@ -12,9 +12,9 @@ class Solution {
         for(int i=1; i<nums.length-1; i++){
             
             if(nums[i]>nums[i-1]){
-                up=down1;
+                up=down+1;
             }
             else{
-                down=up+1;
+                down=up1;
             }
         }
