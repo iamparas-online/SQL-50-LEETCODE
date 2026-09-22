@@ -14,3 +14,4 @@
             else if(nums[i]<nums[i-1]){
                 down=up+1;
             }
+        }
