@@ -6,16 +6,16 @@ class Solution {
 
         for(int i=0; i<s.length(); i++){
             if(s.charAt(i)!='#'){
-                Fipush(First.charAt(i));
+                First.push(s.charAt(i));
             }
             else{
-                pop(First.charAt(i));
+                First.pop(s.charAt(i));
             }
         }
 
         for(int i=0; i<t.length(); i++){
             if(s.charAt(i)!='#'){
-                push(Second.charAt(i));
+                push(.charAt(i));
             }
             else{
                 pop(Second.charAt(i));
