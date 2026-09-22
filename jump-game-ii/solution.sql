@@ -4,6 +4,6 @@
         int end=0;
         int jump=0;
 
-        for(int i=0; i<nums.lengt-1; i++){
+        for(int i=0; i<nums.length-1; i++){
 
             far=Math.max(far,i+nums[i]);
