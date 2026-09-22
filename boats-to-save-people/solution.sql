@@ -2,6 +2,6 @@
 class Solution {
     public int numRescueBoats(int[] people, int limit) {
         Arrays.sort(people);
-        int left 
+        int left = 0
     }
 }
