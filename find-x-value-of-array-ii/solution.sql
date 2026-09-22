@@ -1,22 +1,23 @@
 
+            }
         }
+
+        return c;
     }
 
-    Node merge(Node a, Node b) {
+    void build(int node, int l, int r, int[] nums) {
 
-        if (a == null) return b;
-        if (b == null) return a;
+        if (l == r) {
 
-        Node c = new Node();
+            tree[node] = new Node();
 
-        // Product of entire segment
-        c.product = (a.product * b.product) % k;
+            int rem = nums[l] % k;
 
-        // Prefixes
-        // Prefix completely inside left
-        for (int r = 0; r < k; r++) {
-            c.pre[r] = a.pre[r];
+            tree[node].product = rem;
+            tree[node].pre[rem] = 1;
+            tree[node].suf[rem] = 1;
+
+            return;
         }
 
-        // Prefix = entire left + prefix of right
-        for (int r = 0; r < k; r++) {
+        int mid = (l + r) / 2;
