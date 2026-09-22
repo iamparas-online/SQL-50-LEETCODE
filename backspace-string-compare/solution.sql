@@ -9,7 +9,7 @@ class Solution {
                 push(s.charAt(i));
             }
             else{
-                pop()
+                pop(s.charAt)
             }
         }
 
