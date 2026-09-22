@@ -1,11 +1,4 @@
 
-            }
-        }
-
-        return c;
-    }
-
-    void build(int node, int l, int r, int[] nums) {
 
         if (l == r) {
 
@@ -21,3 +14,10 @@
         }
 
         int mid = (l + r) / 2;
+
+        build(node * 2, l, mid, nums);
+        build(node * 2 + 1, mid + 1, r, nums);
+
+        tree[node] = merge(tree[node * 2],
+                           tree[node * 2 + 1]);
+    }
