@@ -11,8 +11,7 @@ class Solution {
 
             if(i==end){
                 end=far;
-                jump+
+                jump++;
             }
         }
     }
-}
