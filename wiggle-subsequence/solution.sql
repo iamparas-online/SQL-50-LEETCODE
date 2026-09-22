@@ -4,6 +4,6 @@ class Solution {
         int up=1;
         int down=1;
         
-        for(int i)
+        for(int i=0)
     }
 }
