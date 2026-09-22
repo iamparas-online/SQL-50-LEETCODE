@@ -15,8 +15,8 @@ class Solution {
 
         for(int i=0; i<t.length(); i++){
             if(s.charAt(i)!='#'){
-                push(.charAt(i));
+                Second.push(t.charAt(i));
             }
             else{
-                pop(Second.charAt(i));
+                pop(.charAt(i));
             }
