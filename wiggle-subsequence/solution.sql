@@ -1,5 +1,4 @@
 
-class Solution {
     public int wiggleMaxLength(int[] nums) {
         int up=1;
         int down=1;
@@ -18,4 +17,6 @@ class Solution {
                 down=up+1;
             }
         }
-        
+
+        return 
+    }
