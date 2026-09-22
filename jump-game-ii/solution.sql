@@ -5,6 +5,6 @@ class Solution {
         int end=0;
         int jump=0;
 
-        for(int i=0; i<nums.lenght-1)
+        for(int i=0; i<nums.lenght-1; i)
     }
 }
