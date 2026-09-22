@@ -8,7 +8,9 @@ class Solution {
             if(s.charAt(i)!=#){
                 push(s.charAt(i));
             }
-            
+            else{
+                pop()
+            }
         }
 
     }
