@@ -9,7 +9,5 @@ class Solution {
 
             far=Math.max(far,i+nums[i]);
 
-            if(i==en)
+            if(i==end){}
         }
-    }
-}
