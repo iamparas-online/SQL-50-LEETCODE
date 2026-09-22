@@ -5,7 +5,7 @@ class Solution {
         int left = 0;
         int right = people.length-1;
 
-        fo
+        while(l)
 
     }
 }
