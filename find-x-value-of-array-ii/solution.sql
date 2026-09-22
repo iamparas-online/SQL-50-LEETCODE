@@ -1,21 +1,22 @@
 
-            int start = queries[i][2];
-            int x = queries[i][3];
 
-            // Persistent update
-            nums[index] = value;
+class Solution {
 
-            update(1, 0, n - 1, index, value);
+    int k;
+    Node[] tree;
 
-            // Get segment [start ... n-1]
-            Node res = query(1, 0, n - 1,
-                             start, n - 1);
+    class Node {
+        int product;
+        int[] pre;
+        int[] suf;
 
-            // IMPORTANT:
-            // We need prefixes, not all subarrays.
-            answer[i] = res.pre[x];
+        Node() {
+            pre = new int[k];
+            suf = new int[k];
         }
-
-        return answer;
     }
-}
+
+    Node merge(Node a, Node b) {
+
+        if (a == null) return b;
+        if (b == null) return a;
