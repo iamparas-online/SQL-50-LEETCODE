@@ -10,4 +10,3 @@ class Solution {
             far=Math.max(far,i+nums[i]);
         }
     }
-}
