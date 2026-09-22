@@ -5,7 +5,7 @@ class Solution {
         int left = 0;
         int right = people.length-1;
 
-        while(l)
+        while(left<=right){}
 
     }
 }
