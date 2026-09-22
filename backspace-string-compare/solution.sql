@@ -1,6 +1,4 @@
 
-    public boolean backspaceCompare(String s, String t) {
-        Stack <character> First = new Stack<>();
         Stack <character> Second = new Stack<>();
 
         for(int i=0; i<=s.length; i++){
@@ -12,11 +10,13 @@
             }
         }
 
-        for(int i=0; i<=s.length; i++){
+        for(int i=0; i<=.length; i++){
             if(s.charAt(i)!=#){
                 push(Second.charAt(i));
             }
             else{
-                pop(.charAt(i));
+                pop(Second.charAt(i));
             }
         }
+    }
+}
