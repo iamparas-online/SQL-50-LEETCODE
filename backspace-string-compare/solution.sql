@@ -6,10 +6,10 @@ class Solution {
 
         for(int i=0; i<=s.length; i++){
             if(s.charAt(i)!=#){
-                push(Fi.charAt(i));
+                push(First.charAt(i));
             }
             else{
-                pop(s.charAt(i));
+                pop(.charAt(i));
             }
         }
 
