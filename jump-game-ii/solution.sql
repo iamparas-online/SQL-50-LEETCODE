@@ -7,7 +7,7 @@ class Solution {
 
         for(int i=0; i<nums.lenght-1; i++){
 
-            far=Math.m
+            far=Math.max(f)
         }
     }
 }
