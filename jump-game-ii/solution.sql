@@ -2,6 +2,7 @@
 class Solution {
     public int jump(int[] nums) {
         int far=0;
-        int e
+        int end=0;
+        in
     }
 }
