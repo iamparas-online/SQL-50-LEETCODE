@@ -18,6 +18,6 @@
             }
         }
 
-        return First(Seco)
+        return Firsteq(Second)
     }
 }
