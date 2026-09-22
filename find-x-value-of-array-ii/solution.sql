@@ -1,5 +1,4 @@
 
-            int value = queries[i][1];
             int start = queries[i][2];
             int x = queries[i][3];
 
@@ -8,3 +7,4 @@
             Node node = query(
                 1, 0, n - 1,
                 start, n - 1
+            );
