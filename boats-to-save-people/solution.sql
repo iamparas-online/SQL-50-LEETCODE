@@ -7,10 +7,12 @@ class Solution {
         int right = people.length-1;
 
         while(left<=right){
-            if{(people[left]+people[right]<=limit)
-            left++; }
+            if(people[left]+people[right]<=limit)
+            left++;
+            }
         right--;
         count++;
         }
     }
     return count;
+}
