@@ -18,5 +18,5 @@ class Solution {
                 Second.push(t.charAt(i));
             }
             else{
-                pop(.charAt(i));
+                Second.pop(.charAt(i));
             }
