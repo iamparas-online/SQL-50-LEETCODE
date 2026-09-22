@@ -4,6 +4,8 @@ class Solution {
         Arrays.sort(people);
         int left = 0;
         int right = people.length-1;
-        
+
+        fo
 
     }
+}
