@@ -6,7 +6,7 @@ class Solution {
 
         for(int i=0; i<=s.length; i++){
             if(s.charAt(i)!=#){
-                push(.charAt(i));
+                push(Fi.charAt(i));
             }
             else{
                 pop(s.charAt(i));
