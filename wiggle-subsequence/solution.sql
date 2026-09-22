@@ -1,6 +1,6 @@
 
 class Solution {
     public int wiggleMaxLength(int[] nums) {
-        i
+        int up=
     }
 }
