@@ -1,5 +1,4 @@
 
-        }
     
         for(int i=1; i<nums.length-1; i++){
             
@@ -8,3 +7,4 @@
             }
             else if(nums[i]<nums[i-1]){
                 down=up+1;
+            }
