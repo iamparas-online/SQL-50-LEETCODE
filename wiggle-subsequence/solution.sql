@@ -14,7 +14,7 @@ class Solution {
             if(nums[i]>nums[i-1]){
                 up=down+1;
             }
-            else i{
+            else if(){
                 down=up-1;
             }
         }
