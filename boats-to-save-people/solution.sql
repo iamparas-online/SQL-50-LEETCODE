@@ -1,5 +1,4 @@
 
-class Solution {
     public int numRescueBoats(int[] people, int limit) {
         Arrays.sort(people);
         int count = 0;
@@ -7,7 +6,7 @@ class Solution {
         int right = people.length-1;
 
         while(left<=right){
-            if(people[left]+people[right]<=limit){}
+            if(people[left]+people[right]<=limit){
             left++;
             }
         right--;
