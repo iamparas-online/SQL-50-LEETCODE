@@ -1,11 +1,10 @@
 
-                First.push(s.charAt(i));
-            }
-            else{
-                First.pop();
+                Second.push(t.charAt(i));
+            } else {
+                if (!Second.isEmpty()) {
+                    Second.pop();
+                }
             }
         }
 
-        for(int i=0; i<t.length(); i++){
-            if(s.charAt(i)!='#'){
-                Second.push(t.charAt(i));
+        return First.equals(Second);
