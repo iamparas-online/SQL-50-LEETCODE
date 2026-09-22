@@ -18,6 +18,6 @@
             }
         }
 
-        return Firsteq(Second)
+        return First.equals(Second)
     }
 }
