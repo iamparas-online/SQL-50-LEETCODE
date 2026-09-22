@@ -8,3 +8,4 @@ class Solution {
             if(s.charAt(i)!='#'){
                 First.push(s.charAt(i));
             }
+            else{
