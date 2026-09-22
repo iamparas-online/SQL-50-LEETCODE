@@ -4,7 +4,7 @@ class Solution {
         Stack <character> First = new Stack<>();
         Stack <character> Second = new Stack<>();
 
-        
+        o
 
     }
 }
