@@ -2,6 +2,7 @@
 class Solution {
     public int numRescueBoats(int[] people, int limit) {
         Arrays.sort(people);
+        int co
         int left = 0;
         int right = people.length-1;
 
@@ -10,6 +11,7 @@ class Solution {
             left++;
         }
         right--;
-        
+
 
     }
+}
