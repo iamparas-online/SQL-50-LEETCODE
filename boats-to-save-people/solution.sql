@@ -9,7 +9,7 @@ class Solution {
             if(people[left]+people[right]<=limit)
             left++;
         }
-        ri
+        right-
 
     }
 }
