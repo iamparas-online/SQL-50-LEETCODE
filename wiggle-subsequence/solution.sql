@@ -4,7 +4,9 @@ class Solution {
         int up=1;
         int down=1;
         
-        if(nums.length<2){}
+        if(nums.length<2){
+            retur
+        }
 
 
         for(int i=0; i<nums.length-1; i++){
