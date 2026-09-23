@@ -4,6 +4,6 @@ class Solution {
         Array.sort(nums);
         int ans=0;
 
-        for(int i=1; i<nums.l )
+        for(int i=1; i<nums.length )
     }
 }
