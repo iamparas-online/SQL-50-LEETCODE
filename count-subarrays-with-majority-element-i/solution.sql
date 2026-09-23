@@ -4,10 +4,14 @@ class Solution {
         int result=0;
 
         for(int i=0; i<nums.length; i++){
+
             int count=0
+            
             for(int j=i; i<nums.length; j++){
                 int size=j-i+1;
-                
+
+
             }
         }
     }
+}
