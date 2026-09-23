@@ -7,4 +7,3 @@
 
                 int x=nums[i-1]+1;
                 ans += x-nums[i];
-            }
