@@ -1,4 +1,6 @@
 
+class Solution {
+    public int minIncrementForUnique(int[] nums) {
         Array.sort(nums);
         int ans=0;
 
@@ -9,6 +11,6 @@
                 ans += x-nums[i];
                 nums[i] = x;
             }
-        }
+        }\
     }
 }
