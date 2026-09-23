@@ -20,3 +20,4 @@ class Solution {
 
             while (sum > target && left <= right) {
                 sum -= nums[left];
+                left++;
