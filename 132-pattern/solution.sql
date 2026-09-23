@@ -7,3 +7,4 @@ class Solution {
                 for (int k = j + 1; k < nums.length; k++) {
 
                     if (nums[i] < nums[k] && nums[k] < nums[j]) {
+                        return true;
