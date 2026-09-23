@@ -11,6 +11,7 @@ class Solution {
                 ans += x-nums[i];
                 nums[i] = x;
             }
-        }\
+        }
+        r
     }
 }
