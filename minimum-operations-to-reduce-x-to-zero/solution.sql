@@ -1,8 +1,4 @@
 
-class Solution {
-    public int minOperations(int[] nums, int x) {
-
-        int totalSum = 0;
 
         for (int num : nums) {
             totalSum += num;
@@ -21,3 +17,6 @@ class Solution {
             while (sum > target && left <= right) {
                 sum -= nums[left];
                 left++;
+            }
+
+            if (sum == target) {
