@@ -1,11 +1,9 @@
 
-    public boolean find132pattern(int[] nums) {
-
         Stack<Integer> s = new Stack<>();
         int min = Integer.MIN_VLAUE;
 
         for(int i=nums.length-1; i<=0; i--){
-            
+
             if(nums[i]<min){
                 return true; 
             }
@@ -17,7 +15,7 @@
 
             s.push(nums[i]);
 
-        
+        }
         return false;
         }
 }
