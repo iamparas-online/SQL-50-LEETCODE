@@ -1,4 +1,5 @@
 
+
         Stack<Integer> s = new Stack<>();
         int min = Integer.MIN_VLAUE;
 
