@@ -10,7 +10,9 @@ class Solution {
             for(int j=i; i<nums.length; j++){
                 int size=j-i+1;
 
-                if(nums[j]==target){}
+                if(nums[j]==target){
+                    c
+                }
 
 
             }
