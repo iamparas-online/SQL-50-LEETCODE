@@ -1,5 +1,4 @@
 
-    public boolean find132pattern(int[] nums) {
 
         Stack<Integer> s = new Stack<>();
         int min = Integer.MIN_VLAUE;
