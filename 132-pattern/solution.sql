@@ -1,6 +1,4 @@
 
-                if (minLeft < nums[k] && nums[k] < nums[j]) {
-                    return true;
                 }
             }
 
@@ -8,3 +6,5 @@
         }
 
         return false;
+    }
+}
