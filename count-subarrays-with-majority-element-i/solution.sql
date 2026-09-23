@@ -10,7 +10,7 @@ class Solution {
             for(int j=i; i<nums.length; j++){
                 int size=j-i+1;
 
-                i
+                if(nums[])
 
 
             }
