@@ -1,4 +1,5 @@
 
+class Solution {
     public int minOperations(int[] nums, int x) {
 
         int totalSum = 0;
@@ -19,5 +20,3 @@
 
             while (sum > target && left <= right) {
                 sum -= nums[left];
-                left++;
-            }
