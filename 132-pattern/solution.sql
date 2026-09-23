@@ -2,8 +2,9 @@
 class Solution {
     public boolean find132pattern(int[] nums) {
 
-        int minLeft = nums[0];
+        Stack<Integer> s = new Stack<>();
+        int min = Integer.MIN_VLAUE;
 
-        for (int j = 1; j < nums.length; j++) {
-
-            for (int k = j + 1; k < nums.length; k++) {
+        for(int i=nums.length-1; i<=0; i--){
+            if(nums[i]<min){
+                return true; 
