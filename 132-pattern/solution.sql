@@ -1,5 +1,4 @@
 
-
         Stack<Integer> s = new Stack<>();
         int min = Integer.MIN_VLAUE;
 
@@ -14,6 +13,6 @@
 
             s.push(nums[i]);
 
-        } 
+        }
         return false;
 }
