@@ -6,5 +6,5 @@
             if(nums[i]<=nums[i-1]){
 
                 int x=nums[i-1]+1;
-                ans += x-nums
+                ans += x-nums[]
             }
