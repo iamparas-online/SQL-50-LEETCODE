@@ -1,10 +1,9 @@
 
-                }
-            }
+class Solution {
+    public boolean find132pattern(int[] nums) {
 
-            minLeft = Math.min(minLeft, nums[j]);
-        }
+        int minLeft = nums[0];
 
-        return false;
-    }
-}
+        for (int j = 1; j < nums.length; j++) {
+
+            for (int k = j + 1; k < nums.length; k++) {
