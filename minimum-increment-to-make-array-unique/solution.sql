@@ -2,6 +2,6 @@
 class Solution {
     public int minIncrementForUnique(int[] nums) {
         Array.sort(nums);
-        int ans =0
+        int ans=0;
     }
 }
