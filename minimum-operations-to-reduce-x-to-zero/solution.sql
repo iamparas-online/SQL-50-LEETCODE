@@ -1,5 +1,4 @@
 
-            while (sum > target && left <= right) {
                 sum -= nums[left];
                 left++;
             }
@@ -14,3 +13,5 @@
         }
 
         return nums.length - maxLen;
+    }
+}
