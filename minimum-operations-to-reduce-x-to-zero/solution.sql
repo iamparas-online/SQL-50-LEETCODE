@@ -1,17 +1,17 @@
 
-                sum -= nums[left];
-                left++;
-            }
+class Solution {
+    public int minOperations(int[] nums, int x) {
 
-            if (sum == target) {
-                maxLen = Math.max(maxLen, right - left + 1);
-            }
+        int totalSum = 0;
+
+        for (int num : nums) {
+            totalSum += num;
         }
 
-        if (maxLen == -1) {
-            return -1;
-        }
+        int target = totalSum - x;
 
-        return nums.length - maxLen;
-    }
-}
+        int left = 0;
+        int sum = 0;
+        int maxLen = -1;
+
+        for (int right = 0; right < nums.length; right++) {
