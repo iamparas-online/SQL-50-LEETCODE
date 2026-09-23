@@ -1,5 +1,4 @@
 
-
         for (int num : nums) {
             totalSum += num;
         }
@@ -20,3 +19,5 @@
             }
 
             if (sum == target) {
+                maxLen = Math.max(maxLen, right - left + 1);
+            }
