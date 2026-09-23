@@ -1,8 +1,4 @@
 
-        for (int num : nums) {
-            totalSum += num;
-        }
-
         int target = totalSum - x;
 
         int left = 0;
@@ -14,3 +10,8 @@
             sum += nums[right];
 
             while (sum > target && left <= right) {
+                sum -= nums[left];
+                left++;
+            }
+
+            if (sum == target) {
