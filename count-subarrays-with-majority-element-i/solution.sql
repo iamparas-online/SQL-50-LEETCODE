@@ -1,6 +1,6 @@
 
 class Solution {
     public int countMajoritySubarrays(int[] nums, int target) {
-        int result-
+        int result=0;
     }
 }
