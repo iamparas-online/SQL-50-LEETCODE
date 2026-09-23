@@ -1,7 +1,6 @@
 
 class Solution {
-    public boolean find132pattern(int[] 
-    nums) {
+    public boolean find132pattern(int[] nums) {
         
     }
 }
