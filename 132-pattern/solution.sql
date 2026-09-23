@@ -1,10 +1,8 @@
 
-                min = Math.max(min,s.pop()); 
+            if(nums[i]<min){
+                return true; 
             }
 
-            s.push(nums[i]);
-
-        
-        return false;
-        }
-}
+            while( !s.empty() && s.peek()<nums[i] ){
+                min = Math.max(min,s.pop()); 
+            }
