@@ -1,4 +1,8 @@
 
+class Solution {
+    public int smallestIndex(int[] nums) {
+    
+    for(int i=0; i<nums.length; i++){
         n=nums[i];
         sum=0;
         while(n>0){
@@ -9,5 +13,3 @@
             return i;
         }
     }
-    return -1;
-}
