@@ -2,7 +2,7 @@
 class Solution {
     public int smallestIndex(int[] nums) {
         if(nums[i]==i){
-            return nums[9]
+            return nums[i];
         }
     }
 }
