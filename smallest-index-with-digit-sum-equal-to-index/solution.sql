@@ -5,4 +5,3 @@ class Solution {
             return nums[i];
         }
     }
-}
