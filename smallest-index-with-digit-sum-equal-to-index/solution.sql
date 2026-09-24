@@ -1,6 +1,6 @@
 
 class Solution {
     public int smallestIndex(int[] nums) {
-        if(nums[i]==i)
+        if(nums[i]==i){}
     }
 }
