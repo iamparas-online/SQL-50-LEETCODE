@@ -1,4 +1,3 @@
-
 class Solution {
     public int minIncrementForUnique(int[] nums) {
         Arrays.sort(nums);
@@ -12,6 +11,3 @@ class Solution {
                 nums[i] = x;
             }
         }
-        return ans;
-    }
-}
