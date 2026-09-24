@@ -3,5 +3,3 @@ class Solution {
     public int smallestIndex(int[] nums) {
     
     for(int i=0; i<=nums.length-1; i++){
-        int n=nums[i];
-        int sum=0;
