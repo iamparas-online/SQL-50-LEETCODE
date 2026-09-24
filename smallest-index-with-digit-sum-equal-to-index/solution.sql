@@ -9,9 +9,10 @@ class Solution {
             sum += n%10;
             n = n/10;
         }
-        if(sum==nums[i]){
+        if(sum==nums[i){
             return i;
         }
     }
     return -1;
     }
+}
