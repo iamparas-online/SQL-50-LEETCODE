@@ -7,7 +7,7 @@ class Solution {
             int num = nums[i];
             int sum = 0;
 
-            // calculate digit sum here
+            // calculate digit sum her
 
             if(sum == i) {
                 return i;
