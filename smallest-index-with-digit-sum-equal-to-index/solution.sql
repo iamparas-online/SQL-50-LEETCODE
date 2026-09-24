@@ -1,12 +1,5 @@
 
-                num = num/10;
-            }
+class Solution {
+    public int smallestIndex(int[] nums) {
 
-            if(sum == i) {
-                return i;
-            }
-        }
-
-        return -1;
-    }
 }
