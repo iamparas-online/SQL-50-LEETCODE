@@ -7,7 +7,7 @@ class Solution {
             int num = nums[i];
             int sum = 0;
 
-            while(nu)
+            while(num)
 
             if(sum == i) {
                 return i;
