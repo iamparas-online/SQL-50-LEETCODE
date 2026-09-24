@@ -12,6 +12,3 @@ class Solution {
         if(sum==nums[i]){
             return i;
         }
-    }
-    return -1;
-    }
