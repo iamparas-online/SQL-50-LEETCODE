@@ -9,10 +9,6 @@ class Solution {
             sum += n%10;
             n = n/10;
         }
-        if(sum==numi){
+        if(sum==i){
             return i;
         }
-    }
-    return -1;
-    }
-}
