@@ -13,7 +13,7 @@ class Solution {
                 continue;
             }
 
-            if(count>n>)
+            if(count>n)
         }
     }
 }
