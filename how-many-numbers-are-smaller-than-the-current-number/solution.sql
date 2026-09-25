@@ -9,7 +9,7 @@ class Solution {
         for(int i; i<nums.length; i++){
             //it resets to zero every time 
             int count = 0;
-            fo
+            for(i)
         }
     }
 }
