@@ -6,6 +6,6 @@ class Solution {
         int[] arr = new int[nums.length];
 
         //now loop 
-        for(int i; i<)
+        for(int i; i<num)
     }
 }
