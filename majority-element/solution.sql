@@ -5,11 +5,11 @@
                 has.put(nums[i],has.get(nums[i])+1);
             }
             else{
-                has.put(nums[i],has.get(nums[i]));
+                has.put(nums[i],has.get(nums[i]);
             }
 
             if(nums[i])>nums.length/2){
-                return h;
+                return nums[i];
             }
         }
     }
