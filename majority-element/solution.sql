@@ -14,3 +14,6 @@ class Solution {
 
             if(count>nums/2){
                 return count;
+            }
+        }
+    }
