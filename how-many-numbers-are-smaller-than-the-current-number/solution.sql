@@ -13,3 +13,9 @@ class Solution {
                 if(nums[i]>nums[j]){
                     count++;
                 }
+                
+            }
+        }
+        return arr;    
+    }
+}
