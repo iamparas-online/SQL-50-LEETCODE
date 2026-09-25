@@ -4,11 +4,11 @@
         int count = 0;
 
         for(int i=0;i<nums.length;i++){
-            if(nums[i]=has.containsKey(i)){
+            if(has.containsKey(i)){
                 count++;
             }
             else{
-                continue;
+                continu;
             }
 
             if(count>nums/2){
