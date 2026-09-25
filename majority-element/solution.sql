@@ -13,7 +13,9 @@ class Solution {
                 continue;
             }
 
-            if(count>n/2){}
+            if(count>n/2){
+                re
+            }
         }
     }
 }
