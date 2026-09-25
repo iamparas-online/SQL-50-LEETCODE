@@ -6,10 +6,10 @@ class Solution {
         int[] arr = new int[nums.length];
 
         //now loop 
-        for(int i; i<nums.length; i++){
+        for(int i=; i<nums.length; i++){
             //it resets to zero every time 
             int count = 0;
-            for(i)
+            for(int j=0)
         }
     }
 }
