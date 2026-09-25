@@ -4,7 +4,7 @@
         int count = 0;
 
         for(int i=0;i<nums.length;i++){
-            if(has.containsKey(i)){
+            if(has.containsKey(ni)){
                 count++;
             }
             else{
