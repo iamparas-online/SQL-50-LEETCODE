@@ -20,3 +20,4 @@ class Solution {
             }
 
             //easiest part tbh has.get(nums[i]) checks the final 
+            count 
