@@ -1,9 +1,4 @@
 
-
-        //basic for loop
-        for(int i=0;i<nums.length;i++){
-            
-            //check element is present or not 
             //if present increase count using has.get() and has.put()
             if(has.containsKey(nums[i])){
                 has.put(nums[i],has.get(nums[i])+1);
