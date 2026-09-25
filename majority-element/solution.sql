@@ -8,11 +8,3 @@
             }
 
             //easiest part tbh has.get(nums[i]) checks the final 
-            count 
-            if(has.get(nums[i])>nums.length/2){
-                return nums[i];
-            }
-        }
-        return -1;
-    }
-}
