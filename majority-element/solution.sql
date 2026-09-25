@@ -9,7 +9,7 @@
             }
 
             if(nums[i])>nums.length/2){
-                return has.get(nums[i];
+                return h;
             }
         }
     }
