@@ -16,6 +16,6 @@ class Solution {
                 }
             }
         }
-        return a
+        return arr;
     }
 }
