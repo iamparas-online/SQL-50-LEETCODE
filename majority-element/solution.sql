@@ -1,10 +1,4 @@
 
-class Solution {
-    public int majorityElement(int[] nums) {
-
-        HashMap<Integer,Integer> has = new HashMap<>();
-        int count = 0;
-
         for(int i=0;i<nums.length;i++){
             if(nums[i]==has.containKey(i)){
                 count++;
@@ -13,4 +7,9 @@ class Solution {
                 continue;
             }
 
-            if(count>n/2){
+            if(count>num/2){
+                return count;
+            }
+        }
+    }
+}
