@@ -12,5 +12,8 @@ class Solution {
             else{
                 continue;
             }
+
+            if
         }
     }
+}
