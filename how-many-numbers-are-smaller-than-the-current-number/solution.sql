@@ -4,7 +4,7 @@ class Solution {
         
         //creating array 
         int[] arr = new int[nums.length];
-        in 
+        int count
 
         //now loop 
         for(int i; i<nums.length; i++){
