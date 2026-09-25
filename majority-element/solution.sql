@@ -9,7 +9,9 @@ class Solution {
             if(num[i]==has[i]){
                 count++;
             }
-            else{}
+            else{
+                c
+            }
         }
     }
 }
