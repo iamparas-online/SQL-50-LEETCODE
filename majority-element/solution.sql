@@ -13,7 +13,7 @@
                 has.put(nums[i],1);
             }
 
-            //easiest part tbh has.get(nums[i]) checks the f
+            //easiest part tbh has.get(nums[i]) checks the fin
             if(has.get(nums[i])>nums.length/2){
                 return nums[i];
             }
