@@ -12,10 +12,10 @@ class Solution {
             for(int j=0; i<nums.length; i++){
                 if(nums[i]>nums[j]){
                     count++;
-                    arr=co
+                    arr=count;
                 }
             }
         }
-        return 
+        return a
     }
 }
