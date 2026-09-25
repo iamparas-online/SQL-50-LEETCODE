@@ -1,4 +1,5 @@
 
+            }
             else{
                 has.put(nums[i],1);
             }
@@ -7,6 +8,6 @@
                 return nums[i];
             }
         }
-        return
+        return -1;
     }
 }
