@@ -1,12 +1,4 @@
 
-class Solution {
-    public int majorityElement(int[] nums) {
-
-        //create a HashMap to store key and value pair where key is 
-        element and value is how many times it comes basically values 
-        works as count 
-        HashMap<Integer,Integer> has = new HashMap<>();
-
         //basic for loop
         for(int i=0;i<nums.length;i++){
             
@@ -21,3 +13,10 @@ class Solution {
 
             //easiest part tbh has.get(nums[i]) checks the final 
             count 
+            if(has.get(nums[i])>nums.length/2){
+                return nums[i];
+            }
+        }
+        return -1;
+    }
+}
