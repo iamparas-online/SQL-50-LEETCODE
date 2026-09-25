@@ -7,7 +7,7 @@
 
             //it resets to zero every time 
             int count = 0;
-            for(int j=0; j<nums.length; ++){
+            for(int j=0; j<nums.length; j++){
                 if(nums[i]>nums[j]){
                     count++;
                 }
@@ -17,4 +17,3 @@
         return arr;
 
     }
-}
