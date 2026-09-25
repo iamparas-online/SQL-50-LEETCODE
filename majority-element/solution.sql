@@ -3,7 +3,7 @@ class Solution {
     public int majorityElement(int[] nums) {
 
         //create a HashMap to store key and value pair where key is element and value 
-        is how many times it comes basically v
+        is how many times it comes basically values c
         HashMap<Integer,Integer> has = new HashMap<>();
 
         for(int i=0;i<nums.length;i++){
