@@ -3,6 +3,6 @@ class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         
         //creating array 
-        int[] arr = int[nums.l]
+        int[] arr = nint[nums.length]
     }
 }
