@@ -1,9 +1,4 @@
 
-class Solution {
-
-    int i = 0;
-
-    public List<String> braceExpansionII(String expression) {
 
         Set<String> set = parse(expression);
 
@@ -20,3 +15,9 @@ class Solution {
         current.add("");
 
         while (i < s.length() && s.charAt(i) != '}') {
+
+            char c = s.charAt(i);
+
+            if (c == '{') {
+
+                i++;
