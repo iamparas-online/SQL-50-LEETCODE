@@ -1,4 +1,5 @@
 
+        for(int i=0;i<nums.length;i++){
             
             //check element is present or not 
             //if present increase count using has.get() and has.put()
