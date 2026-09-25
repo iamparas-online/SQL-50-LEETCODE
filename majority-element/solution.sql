@@ -8,7 +8,7 @@
                 count++;
             }
             else{
-                nums{};
+                nums[i]=;
             }
 
             if(count>nums/2){
