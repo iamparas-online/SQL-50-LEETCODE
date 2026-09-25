@@ -9,7 +9,7 @@ class Solution {
                 count++;
             }
             else{
-                has.put(has.get(),N);
+                has.put(has.get(),nu);
             }
 
             if(count>nums/2){
