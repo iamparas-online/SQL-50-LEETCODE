@@ -8,7 +8,7 @@
                 has.put(has.get(nums[i]),nums[i]);
             }
 
-            if(has.get(n)>nums/2){
+            if(has.get(nums)>nums/2){
                 return count;
             }
         }
