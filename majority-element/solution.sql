@@ -14,8 +14,7 @@ class Solution {
             }
 
             if(count>n/2){
-                return coun
+                return count;
             }
         }
     }
-}
