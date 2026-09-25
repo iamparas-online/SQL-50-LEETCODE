@@ -18,3 +18,5 @@ class Solution {
             else{
                 has.put(nums[i],1);
             }
+
+            //easiest part tbh has.get(nums[i]) checks the final 
