@@ -2,11 +2,11 @@
 class Solution {
     public int majorityElement(int[] nums) {
 
-        HashMap<Integer,Integer> has = new Hashap<>();
+        HashMap<Integer,Integer> has = new HashMap<>();
         int count = 0;
 
         for(int i=0;i<nums.length;i++){
-            if(num[i]==has[i]){
+            if(nums[i]==has[i]){
                 count++;
             }
             else{
