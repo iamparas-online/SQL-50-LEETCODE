@@ -5,6 +5,7 @@ class Solution {
         //creating array 
         int[] arr = new int[nums.length];
 
-        //now lo
+        //now loop 
+        f
     }
 }
