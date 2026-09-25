@@ -3,7 +3,7 @@ class Solution {
     public int majorityElement(int[] nums) {
 
         Hashmap<Integer,Integer> has = new Hashmap<>()
-        i
+        int cou
         for(int i=0;i<nums.length;i++){
         }
     }
