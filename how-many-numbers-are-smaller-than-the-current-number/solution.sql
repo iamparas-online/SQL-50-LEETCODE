@@ -14,7 +14,7 @@ class Solution {
                     count++;
                 }
             }
+            
             arr[i] = count;
         }
         return arr;    
-    }
