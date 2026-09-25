@@ -1,7 +1,2 @@
 
-class Solution {
-    public int[] smallerNumbersThanCurrent(int
-    [] nums) {
-        
-    }
-}
+c
