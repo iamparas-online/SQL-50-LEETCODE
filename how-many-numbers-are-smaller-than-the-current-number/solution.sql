@@ -14,8 +14,8 @@
                 }
             }
             arr[i] = count;
-        return arr;  
+            return arr;  
         }
-  
+
     }
 }
