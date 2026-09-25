@@ -1,7 +1,6 @@
 
             //check element is present or not 
-            //if present increase count using has.get() and has.
-            put()
+            //if present increase count using has.get() and has.put()
             if(has.containsKey(nums[i])){
                 has.put(nums[i],has.get(nums[i])+1);
             }
@@ -9,8 +8,8 @@
                 has.put(nums[i],1);
             }
 
-            //easiest part tbh has.get(nums[i]) checks the 
-            final count 
+            //easiest part tbh has.get(nums[i]) checks the final 
+            count 
             if(has.get(nums[i])>nums.length/2){
                 return nums[i];
             }
