@@ -9,5 +9,9 @@ class Solution {
         for(int i=0; i<nums.length; i++){
             //it resets to zero every time 
             int count = 0;
-            for(int j=0; i<nums.length; i++){}
+            for(int j=0; i<nums.length; i++){
+                i
+            }
         }
+    }
+}
