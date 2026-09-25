@@ -1,4 +1,5 @@
 
+class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         
         //creating array 
@@ -15,6 +16,4 @@
                 arr[i] = count;
             }
             return arr;
-
     }
-}
