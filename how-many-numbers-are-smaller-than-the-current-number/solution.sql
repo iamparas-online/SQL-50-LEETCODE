@@ -4,9 +4,11 @@ class Solution {
         
         //creating array 
         int[] arr = new int[nums.length];
+        in 
 
         //now loop 
         for(int i; i<nums.length; i++){
             int count=0;
         }
     }
+}
