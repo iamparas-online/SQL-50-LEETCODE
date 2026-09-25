@@ -7,7 +7,7 @@ class Solution {
 
         //now loop 
         for(int i; i<nums.length; i++){
-            //it resets to
+            //it resets to zero 
             int count = 0;
         }
     }
