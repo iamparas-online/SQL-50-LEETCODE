@@ -14,7 +14,7 @@ class Solution {
             }
 
             if(count>n/2){
-                re
+                return coun
             }
         }
     }
