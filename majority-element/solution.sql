@@ -2,6 +2,6 @@
 class Solution {
     public int majorityElement(int[] nums) {
         
-        for(in)
+        for(int i=0;i)
     }
 }
