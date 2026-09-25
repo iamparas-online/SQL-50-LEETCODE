@@ -1,4 +1,6 @@
 
+
+        //basic for loop
         for(int i=0;i<nums.length;i++){
             
             //check element is present or not 
