@@ -13,7 +13,7 @@
                 has.put(nums[i],1);
             }
 
-            //easiest part tbh has.g
+            //easiest part tbh has.get(n)
             if(has.get(nums[i])>nums.length/2){
                 return nums[i];
             }
