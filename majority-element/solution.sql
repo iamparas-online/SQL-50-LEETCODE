@@ -10,6 +10,7 @@ class Solution {
         for(int i=0;i<nums.length;i++){
             
             //check element is present or not 
+            i
             if(has.containsKey(nums[i])){
                 has.put(nums[i],has.get(nums[i])+1);
             }
