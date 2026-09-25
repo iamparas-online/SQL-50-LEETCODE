@@ -9,7 +9,7 @@ class Solution {
         //basic for loop
         for(int i=0;i<nums.length;i++){
             
-            //check element is present or not
+            //check element is present or not 
             if(has.containsKey(nums[i])){
                 has.put(nums[i],has.get(nums[i])+1);
             }
@@ -18,4 +18,3 @@ class Solution {
             }
 
             if(has.get(nums[i])>nums.length/2){
-                return nums[i];
