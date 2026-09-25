@@ -8,7 +8,7 @@
                 count++;
             }
             else{
-                n;
+                nums{};
             }
 
             if(count>nums/2){
