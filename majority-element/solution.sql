@@ -1,4 +1,6 @@
 
+class Solution {
+    public int majorityElement(int[] nums) {
 
         HashMap<Integer,Integer> has = new HashMap<>();
 
@@ -7,9 +9,7 @@
                 count++;
             }
             else{
-                has.put(nums[i]);
+                has.put(nums[i],);
             }
 
             if(count>nums/2){
-                return count;
-            }
