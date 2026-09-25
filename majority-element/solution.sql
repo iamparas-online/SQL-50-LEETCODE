@@ -1,5 +1,4 @@
 
-        HashMap<Integer,Integer> has = new HashMap<>();
 
         //basic for loop
         for(int i=0;i<nums.length;i++){
@@ -13,10 +12,11 @@
                 has.put(nums[i],1);
             }
 
-            //easiest part tbh has.get(nums[i]) checks the fin
+            //easiest part tbh has.get(nums[i]) checks the final count 
             if(has.get(nums[i])>nums.length/2){
                 return nums[i];
             }
         }
         return -1;
     }
+}
