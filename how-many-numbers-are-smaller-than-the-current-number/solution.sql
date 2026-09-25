@@ -10,7 +10,7 @@ class Solution {
             //it resets to zero every time 
             int count = 0;
             for(int j=0; i<nums.length; i++){
-                if(nums[i]>)
+                if(nums[i]>nums[j])
             }
         }
     }
