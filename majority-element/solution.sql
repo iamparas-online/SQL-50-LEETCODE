@@ -9,11 +9,7 @@ class Solution {
                 has.put(nums[i],nums[i]+1);
             }
             else{
-                has.put(has.get(),nums[i]);
+                has.put(has.get(n),nums[i]);
             }
 
             if(count>nums/2){
-                return count;
-            }
-        }
-    }
