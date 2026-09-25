@@ -6,7 +6,7 @@ class Solution {
 
         for(int i=0;i<nums.length;i++){
             if(has.containsKey(nums[i]){
-                has.put();
+                has.put(i);
             }
             else{
                 has.put(has.get(),nums[i]);
