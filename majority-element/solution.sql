@@ -8,7 +8,7 @@
                 count++;
             }
             else{
-                hnums[i];
+                has.pnums[i];
             }
 
             if(count>nums/2){
