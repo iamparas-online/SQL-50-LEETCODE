@@ -14,6 +14,5 @@
             }
             arr[i] = count;
         }
-        retu
-    }
-}
+        return arr;
+        
