@@ -5,7 +5,7 @@
                 has.put(nums[i],has.get(nums[i])+1);
             }
             else{
-                has.put(nuhas.get(nums[i]));
+                has.put(nums[}has.get(nums[i]));
             }
 
             if(has.get(nums[i])>nums/2){
