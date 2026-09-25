@@ -10,8 +10,7 @@ class Solution {
                 count++;
             }
             else{
-                continu
+                continue;
             }
         }
     }
-}
