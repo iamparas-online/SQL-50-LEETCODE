@@ -8,8 +8,8 @@
                 has.put(nums[i],has.get(nums[i]));
             }
 
-            if(nums{})>nums.length/2){
-                return has.get(nums[i]);
+            if(nums[i])>nums.length/2){
+                return has.get(nums[i];
             }
         }
     }
