@@ -2,6 +2,7 @@
 class Solution {
     public int majorityElement(int[] nums) {
 
+
         HashMap<Integer,Integer> has = new HashMap<>();
 
         for(int i=0;i<nums.length;i++){
@@ -18,4 +19,3 @@ class Solution {
         }
         return -1;
     }
-}
