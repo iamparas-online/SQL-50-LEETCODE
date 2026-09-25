@@ -2,7 +2,7 @@
 class Solution {
     public int majorityElement(int[] nums) {
 
-        //create a HashMap to store key and value pair where key i
+        //create a HashMap to store key and value pair where key is 
         HashMap<Integer,Integer> has = new HashMap<>();
 
         for(int i=0;i<nums.length;i++){
