@@ -13,7 +13,7 @@ class Solution {
                 continue;
             }
 
-            if(coun)
+            if(count>n>)
         }
     }
 }
