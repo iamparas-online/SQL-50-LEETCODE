@@ -9,7 +9,8 @@ class Solution {
                 has.put(nums[i],nums[i]+1);
             }
             else{
-                has.put(has.get(nums),nums[i]);
+                has.put(has.get(nums[i]),nums[i]);
             }
 
             if(count>nums/2){
+                return count;
