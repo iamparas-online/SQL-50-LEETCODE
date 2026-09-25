@@ -1,6 +1,7 @@
 
 class Solution {
-    public int[] smallerNumbersThanCurrent(int[] nums) {
+public:
+    vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
         
     }
-}
+};
