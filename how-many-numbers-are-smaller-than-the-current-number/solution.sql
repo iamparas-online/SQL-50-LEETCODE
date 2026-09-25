@@ -13,7 +13,7 @@ class Solution {
                 if(nums[i]>nums[j]){
                     count++;
                 }
-                arr[i] 
+                arr[i] = co
             }
         }
         return arr;
