@@ -13,8 +13,3 @@ class Solution {
             }
 
             if(has.get(nums[i])>nums/2){
-                return has.get(nums[i]);
-            }
-        }
-    }
-}
