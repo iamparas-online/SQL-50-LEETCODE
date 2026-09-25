@@ -6,7 +6,7 @@ class Solution {
 
         for(int i=0;i<nums.length;i++){
             if(has.containsKey(nums[i])){
-                has.put(nums[i],has.ge(nums[i]+1));
+                has.put(nums[i],has.get(nums[i]+1));
             }
             else{
                 has.put(has.get(nums[i]),nums[i]);
@@ -14,3 +14,4 @@ class Solution {
 
             if(has.get(nums[i])>nums/2){
                 return has.get(nums[i]);
+            }
