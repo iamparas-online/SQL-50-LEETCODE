@@ -12,7 +12,7 @@ class Solution {
                 i++;
             }
         }
-        for(int i=)
+        for(int i=0; i<knowledge.)
         knowledge.get(0).get(0);
         knowledge.get(0).get(1);
 
