@@ -5,7 +5,9 @@ class Solution {
         StringBuilder str = new StringBuilder<>();
 
 
-        if(has.charAt=='('){}
+        if(has.charAt=='('){
+            s
+        }
 
     }
 }
