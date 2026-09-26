@@ -5,7 +5,7 @@ class Solution {
         StringBuilder SB = new StringBuilder<>();
 
         for(int i=0; i<s.length(); i++){
-        if(s.char(i))
+        if(s.charA(i))
 
         }
 
