@@ -6,9 +6,9 @@ class Solution {
 
         for(int i=0; i<s.length(); i++){
         if(s.charAt=='('){
-            str.append(i);
+            str.append(si);
         }
-        else if(ha.charAt==')') {
+        else if(s.charAt==')') {
             break;
         } 
 
