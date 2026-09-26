@@ -4,9 +4,9 @@ class Solution {
         HashMap<String,String> has = new HashMap<>();
         StringBuilder str = new StringBuilder<>();
 
-
+ 
         if(has.charAt=='('){
-            str.append(i)
+            str.append(i);
         }
 
     }
