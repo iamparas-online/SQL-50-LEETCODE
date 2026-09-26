@@ -6,7 +6,7 @@ class Solution {
 
         for(int i=0; i<s.length(); i++){
         if(s.charAt(i)=='('){
-            SB.append(i+)
+            SB.append(i+1);
         }
 
         }
