@@ -6,7 +6,7 @@ class Solution {
 
         for(int i=0; i<s.length(); i++){
         if(s.charAt=='('){
-            st.append(i);
+            str.append(i);
         }
         else if(has.charAt==')') {
             break;
