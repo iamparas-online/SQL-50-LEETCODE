@@ -2,7 +2,7 @@
 class Solution {
     public String evaluate(String s, List<List<String>> knowledge) {
         HashMap<String,String> has = new HashMap<>();
-        StringBuilder st = new StringBuilder<>();
+        StringBuilder SB = new StringBuilder<>();
 
         for(int i=0; i<s.length(); i++){
         if(s.charAt(i)=='('){
