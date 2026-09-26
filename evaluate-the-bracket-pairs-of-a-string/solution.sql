@@ -7,7 +7,7 @@ class Solution {
         for(int i=0; i<s.length; i++){
         if(has.charAt=='('){
             str.append(i);
-        }}
+        }
+        }
 
     }
-}
