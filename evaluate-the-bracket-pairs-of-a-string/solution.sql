@@ -4,7 +4,7 @@ class Solution {
         HashMap<String,String> has = new HashMap<>();
         StringBuilder str = new StringBuilder<>();
 
-        for(i)
+        for(int i)
         if(has.charAt=='('){
             str.append(i);
         }
