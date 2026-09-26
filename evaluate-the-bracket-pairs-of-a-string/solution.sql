@@ -12,7 +12,7 @@ class Solution {
                 i++;
             }
         }
- 
+        f
         knowledge.get(0).get(0);
         knowledge.get(0).get(1);
 
