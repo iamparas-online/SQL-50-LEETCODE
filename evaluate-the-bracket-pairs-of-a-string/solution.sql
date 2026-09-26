@@ -5,8 +5,8 @@ class Solution {
         StringBuilder str = new StringBuilder<>();
 
         for(int i=0; i<s.length(); i++){
-        if(ha.charAt=='('){
-            str.append(i);
+        if(s.charAt=='('){
+            st.append(i);
         }
         else if(has.charAt==')') {
             break;
