@@ -1,19 +1,22 @@
 
 
-        for(int i=0; i<s.length(); i++){
-        if(s.charAt(i)=='('){
-            i++;
-            while(s.charAt(i) != ')'){
-                SB.append(charAt(i));
-                i++;
-            }
-        }
-        for(int i=0; i<knowledge.length; i++){
-        knowledge.get(0).get(0);
-        knowledge.get(0).get(1);
-        }
+        StringBuilder SB = new StringBuilder();
 
-        }
+        for(int i = 0; i < s.length(); i++){
 
-    }
-}
+            if(s.charAt(i) == '('){
+
+                int start = i + 1;
+
+                while(s.charAt(i) != ')'){
+                    i++;
+                }
+
+                String key = s.substring(start, i);
+
+                if(mp.containsKey(key)){
+                    SB.append(mp.get(key));
+                }
+                else{
+                    SB.append("?");
+                }
