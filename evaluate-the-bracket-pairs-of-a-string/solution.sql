@@ -5,7 +5,7 @@ class Solution {
         StringBuilder str = new StringBuilder<>();
 
 
-        if(has.)
+        if(has.char)
 
     }
 }
