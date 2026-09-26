@@ -5,7 +5,7 @@ class Solution {
         StringBuilder str = new StringBuilder<>();
 
         for(int i=0; i<s.length(); i++){
-        if(has.charAt=='('){
+        if(ha.charAt=='('){
             str.append(i);
         }
         else if(has.charAt==')') {
