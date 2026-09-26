@@ -8,7 +8,7 @@ class Solution {
         if(has.charAt=='('){
             str.append(i);
         }
-        else if(has.charAt=) {
+        else if(has.charAt==')') {
 
         } 
         }
