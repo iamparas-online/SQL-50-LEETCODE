@@ -5,10 +5,10 @@ class Solution {
         StringBuilder str = new StringBuilder<>();
 
         for(int i=0; i<s.length(); i++){
-        if(s.charAt=='('){
+        if(s.charAt()=='('){
             str.append(s.charAt(i));
         }
-        else if(s.charAt()==')') {
+        else if(s.charAt(i)==')') {
             break;
         } 
 
