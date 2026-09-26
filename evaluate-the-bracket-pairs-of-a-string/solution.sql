@@ -12,10 +12,10 @@ class Solution {
                 i++;
             }
         }
-
-        knowledge.get()
+ 
+        knowledge.get(0).get(0);
+        knowledge.get(0).get(1);
 
         }
 
     }
-}
