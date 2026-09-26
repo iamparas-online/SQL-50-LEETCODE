@@ -8,6 +8,7 @@ class Solution {
         if(s.charAt(i)=='('){
             SB.append(i+1);
         }
+        
 
         }
 
