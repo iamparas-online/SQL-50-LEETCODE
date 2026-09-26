@@ -13,7 +13,7 @@ class Solution {
             }
         }
 
-        knowledge.
+        knowledge.get()
 
         }
 
