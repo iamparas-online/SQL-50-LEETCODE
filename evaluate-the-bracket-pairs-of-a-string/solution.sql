@@ -6,7 +6,7 @@ class Solution {
 
 
         if(has.charAt=='('){
-            str.appen
+            str.append(i)
         }
 
     }
