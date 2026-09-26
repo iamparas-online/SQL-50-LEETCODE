@@ -8,7 +8,7 @@ class Solution {
         if(s.charAt(i)=='('){
             i++;
             while(s.charAt(i) != ')'){
-                S.append
+                SB.append()
                 i++;
             }
         }
