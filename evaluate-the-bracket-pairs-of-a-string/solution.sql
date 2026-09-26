@@ -14,7 +14,7 @@ class Solution {
         }
         for(int i=0; i<knowledge.length; i++){
         knowledge.get(0).get(0);
-        knowledge.get(0).get(1);
+        knowledge.get(0).get(1);}
 
         }
 
