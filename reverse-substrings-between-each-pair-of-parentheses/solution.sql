@@ -1,9 +1,4 @@
 
-    public String reverseParentheses(String s) {
-
-        Stack<String> st = new Stack<>();
-        String current = "";
-
         for (char ch : s.toCharArray()) {
 
             if (ch == '(') {
@@ -21,3 +16,7 @@
                 current += ch;
             }
         }
+
+        return current;
+    }
+}
