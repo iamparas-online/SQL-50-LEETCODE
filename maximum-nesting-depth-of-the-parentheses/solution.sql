@@ -7,6 +7,7 @@ class Solution {
         for(int i=0; i<s.length(); i++){
             if(s.charAt(i)=='('){
                 count++;
+                ma
             }
             else if(s.charAt(i)==')'){
                 count--;
@@ -14,3 +15,4 @@ class Solution {
         }
         return count;
     }
+}
