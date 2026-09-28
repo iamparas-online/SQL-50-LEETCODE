@@ -13,6 +13,6 @@ class Solution {
                 count--;
             }
         }
-        return max=;
+        return max-;
     }
 }
