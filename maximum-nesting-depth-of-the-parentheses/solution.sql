@@ -13,6 +13,5 @@ class Solution {
                 count--;
             }
         }
-        return m;
+        return max;
     }
-}
