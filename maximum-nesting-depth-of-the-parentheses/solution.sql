@@ -2,6 +2,7 @@
 class Solution {
     public int maxDepth(String s) {
         int count = 0;
+        int m
 
         for(int i=0; i<s.length(); i++){
             if(s.charAt(i)=='('){
@@ -13,3 +14,4 @@ class Solution {
         }
         return count;
     }
+}
