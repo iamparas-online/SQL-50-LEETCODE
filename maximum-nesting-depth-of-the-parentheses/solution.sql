@@ -3,7 +3,7 @@ class Solution {
     public int maxDepth(String s) {
         int count = 0;
 
-        for(i)
+        for(int)
 
     }
 }
