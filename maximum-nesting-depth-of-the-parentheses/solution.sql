@@ -13,6 +13,6 @@ class Solution {
                 count--;
             }
         }
-        return c;
+        return m;
     }
 }
