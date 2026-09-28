@@ -7,7 +7,7 @@ class Solution {
             if(s.charAt(i)=='('){
                 count++;
             }
-            else if(s){
+            else if(s.char){
                 count--;
             }
         }
