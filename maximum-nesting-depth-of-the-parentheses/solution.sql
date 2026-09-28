@@ -8,7 +8,7 @@ class Solution {
                 count++;
             }
             else{
-                c
+                count-
             }
         }
         return count;
