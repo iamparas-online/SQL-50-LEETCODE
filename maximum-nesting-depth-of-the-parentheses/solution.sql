@@ -1,6 +1,7 @@
 
 class Solution {
     public int maxDepth(String s) {
-        int count =
+        int count = 0;
+
     }
 }
