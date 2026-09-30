@@ -6,8 +6,8 @@ class Solution {
         
         for(int i=0; i<seq.length(); i++){
             if(seq.charAt(i)=='('){
-                seq\%2==0;
-                deep += ans;;
+                deep%2==0;
+                deep += an;;
             }
             else{
                 deep -= ans;
