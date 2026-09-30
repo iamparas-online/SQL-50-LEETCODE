@@ -8,7 +8,6 @@ class Solution {
             if(seq.charAt(i)=='('){
                 deep++;
                 ans[i]=deep%2;
-                \
             }
             else{
                 ans[i]=deep%2;
