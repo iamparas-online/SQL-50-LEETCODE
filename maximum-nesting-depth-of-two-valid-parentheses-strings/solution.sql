@@ -4,7 +4,7 @@ class Solution {
         int[] ans = new int[seq.length];
         int deep=0;
         
-        for(int i=0; i<seq.)
+        for(int i=0; i<seq.length;)
         if()
     }
 }
