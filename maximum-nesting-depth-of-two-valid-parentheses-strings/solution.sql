@@ -5,7 +5,7 @@ class Solution {
         int deep=0;
         
         for(int i=0; i<seq.length; i++){
-            if(seq.charA)
+            if(seq.charAt(i))
         }
         
     }
