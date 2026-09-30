@@ -13,7 +13,7 @@ class Solution {
                 deep--;
             }
         }
-        re
+        return ans
         
     }
 }
