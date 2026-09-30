@@ -8,6 +8,7 @@ class Solution {
             if(seq.charAt(i)=='('){
                 deep%2==0;
                 deep++;
+            
             }
             else{
                 deep--;
