@@ -1,6 +1,6 @@
 
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
-        int[] ans = new i
+        int[] ans = new int[s]
     }
 }
