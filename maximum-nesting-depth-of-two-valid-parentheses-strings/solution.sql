@@ -6,7 +6,7 @@ class Solution {
         
         for(int i=0; i<seq.length; i++){
             if(seq.charAt(i)=='('{
-                seq%
+                seq%2=
             }
         }
         
