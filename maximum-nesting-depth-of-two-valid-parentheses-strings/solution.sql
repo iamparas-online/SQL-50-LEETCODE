@@ -10,7 +10,7 @@ class Solution {
                 deep += ans;;
             }
             else{
-                deep-;
+                deep -=;
             }
         }
         return ans;
