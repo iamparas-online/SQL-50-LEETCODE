@@ -10,8 +10,10 @@ class Solution {
                 deep++;
             }
             else{
+                ans
                 deep--;
             }
         }
         return ans;
     }
+}
