@@ -9,7 +9,9 @@ class Solution {
                 seq%2==0;
                 deep++;
             }
-            else{}
+            else{
+                deep
+            }
         }
         
     }
