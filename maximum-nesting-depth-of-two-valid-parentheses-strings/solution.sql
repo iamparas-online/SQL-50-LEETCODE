@@ -10,7 +10,7 @@ class Solution {
                 deep++;
             }
             else{
-                ans
+                ans[i]
                 deep--;
             }
         }
