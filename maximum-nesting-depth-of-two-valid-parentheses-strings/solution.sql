@@ -4,5 +4,7 @@ class Solution {
         int[] ans = new int[seq.length];
         int deep=0;
         
+        for(i)
         if()
     }
+}
