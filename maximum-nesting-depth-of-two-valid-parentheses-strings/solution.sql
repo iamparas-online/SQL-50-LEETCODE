@@ -10,9 +10,10 @@ class Solution {
                 deep++;
             }
             else{
-                deep
+                deep--;
             }
         }
+        re
         
     }
 }
