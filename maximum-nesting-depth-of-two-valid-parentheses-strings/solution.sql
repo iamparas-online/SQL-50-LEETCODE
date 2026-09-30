@@ -7,3 +7,12 @@ class Solution {
         for(int i=0; i<seq.length(); i++){
             if(seq.charAt(i)=='('){
                 deep++;
+                ans[i]=deep%2;
+            }
+            else{
+                ans[i]=deep%2;
+                deep--;
+            }
+        }
+        return ans;
+    }
