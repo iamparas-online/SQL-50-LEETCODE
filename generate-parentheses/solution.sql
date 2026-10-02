@@ -5,7 +5,7 @@ class Solution {
         int close = 0;
 
         for(int i=0; i<=n; i++){
-            i
+            if(o)
         }
     }
 }
