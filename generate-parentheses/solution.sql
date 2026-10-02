@@ -9,7 +9,7 @@ class Solution {
         for(int i=0; i<=n; i++){
             if(open<n){
                 ans[i] += '(';
-                ans  
+                an  
             }
             else if(close<open){
 
