@@ -4,6 +4,6 @@ class Solution {
         int open = 0;
         int close = 0;
 
-        for(in)
+        for(int i=0)
     }
 }
