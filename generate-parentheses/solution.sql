@@ -1,4 +1,7 @@
 
+    public List<String> generateParenthesis(int n) {
+        ArrayList<String> ans = new ArrayList<>();
+
         backtrack(ans, "", 0, 0, n);
 
         return ans;
@@ -15,6 +18,3 @@
         if (open < n) {
             backtrack(ans, s + "(", open + 1, close, n);
         }
-
-        if (close < open) {
-            backtrack(ans, s + ")", open, close + 1, n);
