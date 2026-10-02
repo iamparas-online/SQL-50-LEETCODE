@@ -8,11 +8,10 @@ class Solution {
 
         for(int i=0; i<=n; i++){
             if(open<n){
-                ans[i] += '(';
-                an  
+                ans[i] += '(';  
             }
             else if(close<open){
-
+                
             }
         }
     }
