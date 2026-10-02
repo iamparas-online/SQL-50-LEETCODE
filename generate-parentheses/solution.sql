@@ -4,7 +4,7 @@ class Solution {
         
         int open = 0;
         int close = 0;
-        i
+        int a
 
 
         for(int i=0; i<=n; i++){
