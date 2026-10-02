@@ -8,7 +8,7 @@ class Solution {
         return ans;
     }
 
-    public void backtrack(ArrayList<String> ans ,String s ,int open, int close,int n){
+    public void backtrack(ArrayList<String> ans ,String s ,int open , int close,int n){
 
         if (s.length() == 2 * n) {
             ans.add(s);
