@@ -4,6 +4,8 @@ class Solution {
         int open = 0;
         int close = 0;
 
-        for(int i=0; i<=n; i++){}
+        for(int i=0; i<=n; i++){
+            i
+        }
     }
 }
