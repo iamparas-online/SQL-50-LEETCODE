@@ -1,19 +1,20 @@
 
-class Solution {
-    public List<String> generateParenthesis(int n) {
-        
-        int open = 0;
-        int close = 0;
-        int[] ans = new int[];
+        backtrack(ans, "", 0, 0, n);
 
-        for(int i=0; i<=n; i++){
-            if(open<n){
-                ans[i] += '(';  
-            }
-            else if(close<open){
-                ans[i] += ')';
-            }
-        }
         return ans;
     }
-}
+
+    public void backtrack(ArrayList<String> ans, String s,
+                          int open, int close, int n) {
+
+        if (s.length() == 2 * n) {
+            ans.add(s);
+            return;
+        }
+
+        if (open < n) {
+            backtrack(ans, s + "(", open + 1, close, n);
+        }
+
+        if (close < open) {
+            backtrack(ans, s + ")", open, close + 1, n);
