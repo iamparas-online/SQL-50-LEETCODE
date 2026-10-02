@@ -1,4 +1,5 @@
 
+class Solution {
     public List<String> generateParenthesis(int n) {
         ArrayList<String> ans = new ArrayList<>();
 
@@ -8,7 +9,7 @@
     }
 
     public void backtrack(ArrayList<String> ans, String s,
-                          int open, int close, int n) {
+                        int open, int close, int n) {
 
         if (s.length() == 2 * n) {
             ans.add(s);
@@ -17,4 +18,3 @@
 
         if (open < n) {
             backtrack(ans, s + "(", open + 1, close, n);
-        }
