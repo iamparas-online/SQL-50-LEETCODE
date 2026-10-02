@@ -5,7 +5,8 @@ class Solution {
         int close = 0;
 
         for(int i=0; i<=n; i++){
-            if(open<n){}
+            if(open<n){
+                
+            }
         }
     }
-}
