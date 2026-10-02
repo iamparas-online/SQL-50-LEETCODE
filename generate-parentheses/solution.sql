@@ -1,6 +1,6 @@
 
 class Solution {
     public List<String> generateParenthesis(int n) {
-        int op
+        int open = 
     }
 }
