@@ -10,7 +10,7 @@ class Solution {
             if(open<n){
                 ans[i] += '(';  
             }
-            else 
+            else i
         }
     }
 }
