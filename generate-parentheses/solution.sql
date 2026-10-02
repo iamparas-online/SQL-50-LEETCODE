@@ -14,6 +14,6 @@ class Solution {
                 ans[i] += ')';
             }
         }
-        re
+        return ans;
     }
 }
