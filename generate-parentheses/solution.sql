@@ -11,7 +11,7 @@ class Solution {
                 ans[i] += '(';  
             }
             else if(close<open){
-                ans[]
+                ans[i += ]
             }
         }
     }
