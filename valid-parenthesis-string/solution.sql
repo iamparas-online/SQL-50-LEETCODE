@@ -1,10 +1,5 @@
 
 
-            if (s.charAt(i) == '(') {
-                min++;
-                max++;
-            }
-
             else if (s.charAt(i) == ')') {
                 min--;
                 max--;
@@ -21,3 +16,7 @@
 
             min = Math.max(0, min);
         }
+
+        return min == 0;
+    }
+}
