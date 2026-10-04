@@ -1,7 +1,4 @@
 
-class Solution {
-    public boolean checkValidString(String s) {
-
         int min = 0;
         int max = 0;
 
@@ -20,3 +17,7 @@ class Solution {
             else { // '*'
                 min--;
                 max++;
+            }
+
+            if (max < 0) {
+                return false;
