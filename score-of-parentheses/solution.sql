@@ -10,6 +10,5 @@
             }
             stack.push(stack.pop()+score);
         }
-        return stack.pop;
+        return stack.pop();
     }
-}
