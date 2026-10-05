@@ -1,7 +1,6 @@
 
 class Solution {
-    public int scoreOfParentheses(String 
-    s) {
+    public int scoreOfParentheses(String s) {
         
     }
 }
