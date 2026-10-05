@@ -10,7 +10,7 @@ class Solution {
                 stack.push(0);
             }
             else{
-                i
+                int i
             }
 
         }
