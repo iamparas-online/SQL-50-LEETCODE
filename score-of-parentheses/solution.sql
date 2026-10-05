@@ -13,7 +13,7 @@ class Solution {
                 int inside = stack.pop();
             }
 
-            if(inside )
+            if(inside == 0){}
 
         }
     }
