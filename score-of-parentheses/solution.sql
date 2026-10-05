@@ -10,9 +10,8 @@ class Solution {
                 stack.push(0);
             }
             else{
-                int inside = 
+                int inside = stack.pop();
             }
 
         }
     }
-}
