@@ -17,6 +17,6 @@
             }
             stack.push(stack.pop()+score);
         }
-        
+        return sco
     }
 }
