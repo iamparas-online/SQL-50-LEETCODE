@@ -9,9 +9,10 @@
             }
             else{
                 inside = stack.pop();
-            if(inside == 0){
+                
+                if(inside == 0){
                 score = 1;
-            }
+              }
             else{
                 score=2*inside;
             }
