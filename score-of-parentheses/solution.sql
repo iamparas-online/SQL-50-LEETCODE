@@ -1,5 +1,4 @@
 
-class Solution {
     public int scoreOfParentheses(String s) {
         Stack<Integer> stack = new Stack<>();
         int score=0;
@@ -17,4 +16,7 @@ class Solution {
 
             if(inside == 0){
                 score = 1;
+            }
+            else{
+                s
             }
