@@ -12,8 +12,8 @@
                 
                 if(inside == 0){
                 score = 1;
-              }
-            else{
+                }
+             else{
                 score=2*inside;
             }
             stack.push(stack.pop()+score);}
