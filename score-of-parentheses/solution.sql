@@ -1,5 +1,4 @@
 
-        int inside=1;
         stack.push(0);
 
         for(int i=0; i<s.length(); i++){
@@ -18,5 +17,6 @@
                 score=2*inside;
             }
             stack.push(stack.pop()+score);
-
         }
+    }
+}
