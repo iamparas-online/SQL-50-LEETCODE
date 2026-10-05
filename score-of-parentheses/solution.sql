@@ -1,4 +1,8 @@
 
+    public int scoreOfParentheses(String s) {
+        Stack<Integer> stack = new Stack<>();
+        int score=0;
+        int inside=1;
         stack.push(0);
 
         for(int i=0; i<s.length(); i++){
@@ -16,7 +20,3 @@
             else{
                 score=2*inside;
             }
-
-        }
-        s
-    }
