@@ -9,8 +9,6 @@ class Solution {
             if(s.charAt(i)=='('){
                 stack.push(0);
             }
-            e
+            else{}
 
         }
-    }
-}
