@@ -18,5 +18,5 @@
                 score = 1;
             }
             else{
-                s
+                score=2*inside;
             }
