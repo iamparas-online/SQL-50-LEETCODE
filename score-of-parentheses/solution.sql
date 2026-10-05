@@ -3,6 +3,7 @@ class Solution {
     public int scoreOfParentheses(String s) {
         Stack<Integer> stack = new Stack<>();
         int score=0;
+        int inside
         stack.push(0);
 
         for(int i=0; i<s.length(); i++){
