@@ -14,7 +14,7 @@ class Solution {
             }
 
             if(inside == 0){
-                s
+                score = 1;
             }
 
         }
