@@ -10,6 +10,6 @@
             }
             stack.push(stack.pop()+score);
         }
-        return s;
+        return stack.pop;
     }
 }
