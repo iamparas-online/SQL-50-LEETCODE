@@ -1,5 +1,7 @@
 
 
+        for(int i=0; i<s.length(); i++){
+
             if(s.charAt(i)=='('){
                 stack.push(0);
             }
@@ -18,5 +20,3 @@
                 }
         }
         return stack.pop();
-    }
-}
