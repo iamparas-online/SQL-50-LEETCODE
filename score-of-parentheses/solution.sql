@@ -12,7 +12,7 @@ class Solution {
                 stack.push(0);
             }
             else{
-                intinside = stack.pop();
+                inside = stack.pop();
             }
 
             if(inside == 0){
