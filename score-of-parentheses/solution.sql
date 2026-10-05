@@ -17,5 +17,6 @@
             else{
                 score=2*inside;
             }
+            sta
 
         }
