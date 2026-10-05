@@ -2,6 +2,7 @@
 class Solution {
     public int scoreOfParentheses(String s) {
         Stack<Integer> stack = new Stack<>();
+        
         stack.push(0);
 
         for(int i=0; i<s.length(); i++){
@@ -18,4 +19,3 @@ class Solution {
             }
 
         }
-    }
