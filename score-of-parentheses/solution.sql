@@ -1,4 +1,8 @@
 
+            if(s.charAt(i)=='('){
+                stack.push(0);
+            }
+            else{
                 inside = stack.pop();
             }
 
@@ -12,3 +16,4 @@
         }
         return stack.pop();
     }
+}
