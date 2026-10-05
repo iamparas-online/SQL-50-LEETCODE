@@ -1,6 +1,5 @@
 
 class Solution {
     public int scoreOfParentheses(String s) {
-        stack<Integer> stack = new stack<>
+        Stack<Integer> stack = new Stack<>();
     }
-}
