@@ -13,5 +13,8 @@ class Solution {
                 int inside = stack.pop();
             }
 
+            if(int)
+
         }
     }
+}
