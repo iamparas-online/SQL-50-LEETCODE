@@ -17,6 +17,6 @@
             else{
                 score=2*inside;
             }
-            stack.push(st)
+            stack.push(stack.pop)
 
         }
