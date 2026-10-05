@@ -13,8 +13,9 @@ class Solution {
                 int inside = stack.pop();
             }
 
-            if(inside == 0){}
+            if(inside == 0){
+                s
+            }
 
         }
     }
-}
