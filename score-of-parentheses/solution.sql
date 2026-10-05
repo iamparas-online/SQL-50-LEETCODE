@@ -15,7 +15,3 @@
             }
             else{
                 score=2*inside;
-            }
-            stack.push(stack.pop()+score);}
-        }
-        return stack.pop();
