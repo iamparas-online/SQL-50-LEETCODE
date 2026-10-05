@@ -4,6 +4,6 @@ class Solution {
         Stack<Integer> stack = new Stack<>();
         Stack.push(0);
 
-        for(int i )
+        for(int i=0; i<s.length; i+)
     }
 }
