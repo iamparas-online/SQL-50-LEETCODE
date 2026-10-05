@@ -3,7 +3,7 @@ class Solution {
     public int scoreOfParentheses(String s) {
         Stack<Integer> stack = new Stack<>();
         int score=0;
-        int inside=
+        int inside=1;
         stack.push(0);
 
         for(int i=0; i<s.length(); i++){
@@ -12,7 +12,7 @@ class Solution {
                 stack.push(0);
             }
             else{
-                int inside = stack.pop();
+                intinside = stack.pop();
             }
 
             if(inside == 0){
