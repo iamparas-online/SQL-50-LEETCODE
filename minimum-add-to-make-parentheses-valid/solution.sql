@@ -1,6 +1,6 @@
 
 class Solution {
     public int minAddToMakeValid(String s) {
-        f
+        for(intn)
     }
 }
