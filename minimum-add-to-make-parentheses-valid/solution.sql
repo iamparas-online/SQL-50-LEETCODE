@@ -5,7 +5,7 @@ class Solution {
         Stack<Character> str = new Stack<>();
         for(int i=0; i<s.length(); i++){
             if(s.charAt(i)=='('){
-                str.push());
+                str.push()'');
                 count++;
             }
         }
