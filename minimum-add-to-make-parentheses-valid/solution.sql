@@ -5,10 +5,11 @@ class Solution {
         int count = 0;
 
         for (int i = 0; i < s.length(); i++) {
-            
+
             if (s.charAt(i) == '(') {
                 open++;
-            } else {
+            } 
+            else {
                 if (open > 0) {
                     open--;
                 } else {
@@ -16,5 +17,3 @@ class Solution {
                 }
             }
         }
-
-        return count + open;
