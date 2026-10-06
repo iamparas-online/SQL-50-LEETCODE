@@ -13,3 +13,8 @@ class Solution {
                     open--;
                 } else {
                     count++;
+                }
+            }
+        }
+
+        return count + open;
