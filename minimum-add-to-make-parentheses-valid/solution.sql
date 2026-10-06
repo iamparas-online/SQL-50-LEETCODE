@@ -13,5 +13,3 @@ class Solution {
                     open--;
                 } else {
                     count++;
-                }
-            }
