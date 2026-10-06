@@ -2,10 +2,10 @@
 class Solution {
     public int minAddToMakeValid(String s) {
         int count = 0;
-        Stack<Ch> str = new Stack<>();
+        Stack<Character> str = new Stack<>();
         for(int i=0; i<s.length(); i++){
             if(s.charAt(i)=='('){
-                str.put(i)=')';
+                str.pu(i)=')';
                 count++;
             }
         }
