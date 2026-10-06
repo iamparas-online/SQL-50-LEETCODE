@@ -12,3 +12,6 @@ class Solution {
                 if (open > 0) {
                     open--;
                 } else {
+                    count++;
+                }
+            }
