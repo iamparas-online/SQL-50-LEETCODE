@@ -1,17 +1,9 @@
 
-
-            if (s.charAt(i) == '(') {
-                left++;
-            }
-
-            else if (s.charAt(i) == ')') {
-
-                if (left > 0) {
-                    left--;
-                } else {
-                    right++;
-                }
+                          left, right,
+                          open - 1,
+                          current + c);
             }
         }
 
-        backtrack(s, 0, left, right, 0, "");
+        else {
+            // Letter
