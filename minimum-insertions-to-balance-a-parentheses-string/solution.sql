@@ -1,9 +1,4 @@
 
-
-            if (s.charAt(i) == '(') {
-                open++;
-            } 
-            else {
                 if (i + 1 < s.length() && s.charAt(i + 1) == ')
                 ') {
                     i++;
@@ -19,3 +14,8 @@
                     count++;
                 }
             }
+        }
+
+        return count + open * 2;
+    }
+}
