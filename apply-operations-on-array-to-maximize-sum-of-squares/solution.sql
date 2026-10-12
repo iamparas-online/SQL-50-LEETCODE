@@ -1,11 +1,4 @@
 
-        for (int num : nums) {
-            for (int b = 0; b < 32; b++) {
-                if ((num & (1 << b)) != 0) {
-                    bits[b]++;
-                }
-            }
-        }
 
         long ans = 0;
 
@@ -18,3 +11,9 @@
                     bits[b]--;
                 }
             }
+
+            ans = (ans + num * num) % MOD;
+        }
+
+        return (int) ans;
+    }
