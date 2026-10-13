@@ -1,12 +1,13 @@
 
-        // Subtract the smallest squares
+        long ans = 0;
+        int n = squares.length;
+
         for (int i = 0; i < n / 2; i++) {
-            ans -= (long) nums[i] * nums[i];
+            ans -= squares[i];
         }
 
-        // Add the largest squares
         for (int i = n / 2; i < n; i++) {
-            ans += (long) nums[i] * nums[i];
+            ans += squares[i];
         }
 
         return ans;
