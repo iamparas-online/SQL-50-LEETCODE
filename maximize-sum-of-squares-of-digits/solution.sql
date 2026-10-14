@@ -1,8 +1,4 @@
 
-            s.append('9');
-            sum -= 9;
-            num--;
-        }
 
         if (sum > 0) {
             s.append(sum);
@@ -13,3 +9,7 @@
             s.append('0');
             num--;
         }
+
+        return s.toString();
+    }
+}
