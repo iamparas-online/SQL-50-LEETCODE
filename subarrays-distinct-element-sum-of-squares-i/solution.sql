@@ -1,4 +1,7 @@
 
+import java.util.*;
+
+class Solution {
     public int sumCounts(List<Integer> nums) {
         int ans = 0;
 
@@ -17,6 +20,3 @@
                 ans += count * count;
             }
         }
-
-        return ans;
-    }
