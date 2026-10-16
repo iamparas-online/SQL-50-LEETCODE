@@ -7,13 +7,10 @@
 
         for (int i = 0; i < n; i++) {
             int prev = last[nums[i]];
-
             update(1, 0, n - 1, prev + 1, i);
 
             ans = (ans + sq[1]) % MOD;
-
             last[nums[i]] = i;
         }
 
         return (int) ans;
-    }
