@@ -1,22 +1,19 @@
 
 
-    void push(int node, int l, int r) {
-        if (lazy[node] == 0 || l == r) return;
+        int[] last = new int[100001];
+        java.util.Arrays.fill(last, -1);
 
-        int mid = (l + r) / 2;
+        long ans = 0;
 
-        apply(node * 2, l, mid);
-        apply(node * 2 + 1, mid + 1, r);
+        for (int i = 0; i < n; i++) {
+            int prev = last[nums[i]];
 
-        lazy[node] = 0;
-    }
+            update(1, 0, n - 1, prev + 1, i);
 
-    void update(int node, int l, int r, int ql, int qr) {
-        if (ql > r || qr < l) return;
+            ans = (ans + sq[1]) % MOD;
 
-        if (ql <= l && r <= qr) {
-            apply(node, l, r);
-            return;
+            last[nums[i]] = i;
         }
 
-        push(node, l, r);
+        return (int) ans;
+    }
