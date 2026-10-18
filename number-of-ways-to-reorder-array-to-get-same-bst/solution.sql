@@ -1,16 +1,15 @@
 
-            dp[i][i] = 1;
-
-            for (int j = 1; j < i; j++) {
-                dp[i][j] = (dp[i - 1][j - 1] + dp[i - 1][j]) 
-                % MOD;
-            }
         }
 
-        return (int) ((solve(nums) - 1 + MOD) % MOD);
+        int[] l = left.stream().mapToInt(Integer::intValue).
+        toArray();
+        int[] r = right.stream().mapToInt(Integer::intValue).
+        toArray();
+
+        long ans = dp[n - 1][l.length];
+        ans = ans * solve(l) % MOD;
+        ans = ans * solve(r) % MOD;
+
+        return ans;
     }
-
-    private long solve(int[] nums) {
-        int n = nums.length;
-
-        if (n <= 2) {
+}
