@@ -2,6 +2,6 @@
 class Solution {
     public List<Integer> targetIndices(int[] nums, int target) {
         
-        for(in)
+        for(int i=0; )
     }
 }
