@@ -1,4 +1,4 @@
 # Minimum Operations to Sort a Permutation
 
 - Language: MySQL
-- URL: https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/description/?envType=daily-question&envId=2026-10-22
+- URL: https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/?envType=daily-question&envId=2026-10-22
