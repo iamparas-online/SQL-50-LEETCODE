@@ -1,5 +1,4 @@
 
-class Solution {
     public boolean isPalindrome(int n) {
 
         if (n < 0)
@@ -14,3 +13,8 @@ class Solution {
             n = n / 10;
 
             rev = (rev * 10) + digit;
+        }
+
+        return original == rev;
+    }
+}
